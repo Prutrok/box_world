@@ -37,7 +37,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(147, 83);
+            this.button1.Location = new System.Drawing.Point(150, 90);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(131, 23);
             this.button1.TabIndex = 0;
@@ -48,7 +48,7 @@
             // button2
             // 
             this.button2.Enabled = false;
-            this.button2.Location = new System.Drawing.Point(147, 127);
+            this.button2.Location = new System.Drawing.Point(150, 135);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(131, 23);
             this.button2.TabIndex = 1;
@@ -58,7 +58,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(147, 169);
+            this.button3.Location = new System.Drawing.Point(150, 180);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(131, 23);
             this.button3.TabIndex = 2;
@@ -67,7 +67,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(147, 210);
+            this.button4.Location = new System.Drawing.Point(150, 225);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(131, 23);
             this.button4.TabIndex = 3;
@@ -89,6 +89,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BoxWorld";
             this.ResumeLayout(false);
 
