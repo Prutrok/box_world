@@ -19,7 +19,9 @@ namespace BoxWorld
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Level1 level1 = new Level1();
+            this.Hide();
+            level1.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -29,8 +31,21 @@ namespace BoxWorld
 
         private void button4_Click(object sender, EventArgs e)
         {
-            ExitPopUp popUp = new ExitPopUp();
-            popUp.ShowDialog();
-        }      
+            Helper.popUp.ShowDialog();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (!Helper.popUp.isExitCalledFromHere)
+            {
+                e.Cancel = true;
+                Helper.popUp.ShowDialog();
+            }
+        }
     }
 }

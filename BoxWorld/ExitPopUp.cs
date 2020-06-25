@@ -12,6 +12,9 @@ namespace BoxWorld
 {
     public partial class ExitPopUp : Form
     {
+
+        public bool isExitCalledFromHere = false;
+
         public ExitPopUp()
         {
             InitializeComponent();
@@ -19,6 +22,7 @@ namespace BoxWorld
 
         private void button1_Click(object sender, EventArgs e)
         {
+            isExitCalledFromHere = true;
             Application.Exit();
         }
 
