@@ -754,6 +754,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Level1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Level1_FormClosing);
+            this.Load += new System.EventHandler(this.Level1_Load);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Level1_KeyPress);
             ((System.ComponentModel.ISupportInitialize)(this.brick1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.brick4)).EndInit();

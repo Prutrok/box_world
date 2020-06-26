@@ -20,6 +20,7 @@ namespace BoxWorld
         List<PictureBox> redOrbs = new List<PictureBox>();
 
         int points = 0;
+        VictoryPopUp victoryPopUp = new VictoryPopUp();
         List<PictureBox> scoredRedOrbs = new List<PictureBox>();
 
         public Level1()
@@ -147,33 +148,33 @@ namespace BoxWorld
         {                        
            if (e.KeyChar == 'W' || e.KeyChar == 'w')
             {
-                Point shoudMoveHere = new Point(wizard.Location.X, wizard.Location.Y - 39);
+                Point shouldMoveHere = new Point(wizard.Location.X, wizard.Location.Y - 39);
 
-                bool hitBrick = willHitBrick(shoudMoveHere);
+                bool hitBrick = willHitBrick(shouldMoveHere);
 
                 if (!hitBrick)
                 {
-                    bool hitBox = willHitBox(shoudMoveHere);
+                    bool hitBox = willHitBox(shouldMoveHere);
 
                     if(hitBox)
                     {
-                        PictureBox box = getBoxByPoint(shoudMoveHere);
+                        PictureBox box = getBoxByPoint(shouldMoveHere);
 
                         if (box != null)
                         {
                             Point boxLocation = box.Location;
-                            Point shoudBoxMoveHere = new Point(boxLocation.X, boxLocation.Y - 39);
+                            Point shouldBoxMoveHere = new Point(boxLocation.X, boxLocation.Y - 39);
 
-                            bool boxHitsBrick = willHitBrick(shoudBoxMoveHere);
-                            bool boxHitsBox = willHitBox(shoudBoxMoveHere);
+                            bool boxHitsBrick = willHitBrick(shouldBoxMoveHere);
+                            bool boxHitsBox = willHitBox(shouldBoxMoveHere);
                             
                             if (!boxHitsBrick && !boxHitsBox)
                             {
-                                bool hitRedOrb = willHitRedOrb(shoudBoxMoveHere);
+                                bool hitRedOrb = willHitRedOrb(shouldBoxMoveHere);
 
                                 if (hitRedOrb)
                                 {
-                                    PictureBox redOrb = getRedOrbByPoint(shoudBoxMoveHere);
+                                    PictureBox redOrb = getRedOrbByPoint(shouldBoxMoveHere);
                                     points++;
                                     scoredRedOrbs.Add(redOrb);
 
@@ -217,48 +218,48 @@ namespace BoxWorld
                                     }
                                 }
 
-                                wizard.Location = shoudMoveHere;
-                                box.Location = shoudBoxMoveHere;
+                                wizard.Location = shouldMoveHere;
+                                box.Location = shouldBoxMoveHere;
                             }
                         } else
                         {
-                            wizard.Location = shoudMoveHere;
+                            wizard.Location = shouldMoveHere;
                         }
                     } else
                     {
-                        wizard.Location = shoudMoveHere;
+                        wizard.Location = shouldMoveHere;
                     }
                 }
             }
            if (e.KeyChar == 'S' || e.KeyChar == 's')
             {
-                Point shoudMoveHere = new Point(wizard.Location.X, wizard.Location.Y + 39);
+                Point shouldMoveHere = new Point(wizard.Location.X, wizard.Location.Y + 39);
 
-                bool hitBrick = willHitBrick(shoudMoveHere);
+                bool hitBrick = willHitBrick(shouldMoveHere);
 
                 if (!hitBrick)
                 {
-                    bool hitBox = willHitBox(shoudMoveHere);
+                    bool hitBox = willHitBox(shouldMoveHere);
 
                     if (hitBox)
                     {
-                        PictureBox box = getBoxByPoint(shoudMoveHere);
+                        PictureBox box = getBoxByPoint(shouldMoveHere);
 
                         if (box != null)
                         {
                             Point boxLocation = box.Location;
-                            Point shoudBoxMoveHere = new Point(boxLocation.X, boxLocation.Y + 39);
+                            Point shouldBoxMoveHere = new Point(boxLocation.X, boxLocation.Y + 39);
 
-                            bool boxHitsBrick = willHitBrick(shoudBoxMoveHere);
-                            bool boxHitsBox = willHitBox(shoudBoxMoveHere);
+                            bool boxHitsBrick = willHitBrick(shouldBoxMoveHere);
+                            bool boxHitsBox = willHitBox(shouldBoxMoveHere);
 
                             if (!boxHitsBrick && !boxHitsBox)
                             {
-                                bool hitRedOrb = willHitRedOrb(shoudBoxMoveHere);
+                                bool hitRedOrb = willHitRedOrb(shouldBoxMoveHere);
 
                                 if (hitRedOrb)
                                 {
-                                    PictureBox redOrb = getRedOrbByPoint(shoudBoxMoveHere);
+                                    PictureBox redOrb = getRedOrbByPoint(shouldBoxMoveHere);
                                     points++;
                                     scoredRedOrbs.Add(redOrb);
 
@@ -303,50 +304,50 @@ namespace BoxWorld
                                     }
                                 }
 
-                                wizard.Location = shoudMoveHere;
-                                box.Location = shoudBoxMoveHere;
+                                wizard.Location = shouldMoveHere;
+                                box.Location = shouldBoxMoveHere;
                             }
                         }
                         else
                         {
-                            wizard.Location = shoudMoveHere;
+                            wizard.Location = shouldMoveHere;
                         }
                     }
                     else
                     {
-                        wizard.Location = shoudMoveHere;
+                        wizard.Location = shouldMoveHere;
                     }
                 }
             }
            if (e.KeyChar == 'A' || e.KeyChar == 'a')
             {
-                Point shoudMoveHere = new Point(wizard.Location.X - 36, wizard.Location.Y);
+                Point shouldMoveHere = new Point(wizard.Location.X - 36, wizard.Location.Y);
 
-                bool hitBrick = willHitBrick(shoudMoveHere);
+                bool hitBrick = willHitBrick(shouldMoveHere);
 
                 if (!hitBrick)
                 {
-                    bool hitBox = willHitBox(shoudMoveHere);
+                    bool hitBox = willHitBox(shouldMoveHere);
 
                     if (hitBox)
                     {
-                        PictureBox box = getBoxByPoint(shoudMoveHere);
+                        PictureBox box = getBoxByPoint(shouldMoveHere);
 
                         if (box != null)
                         {
                             Point boxLocation = box.Location;
-                            Point shoudBoxMoveHere = new Point(boxLocation.X - 36, boxLocation.Y);
+                            Point shouldBoxMoveHere = new Point(boxLocation.X - 36, boxLocation.Y);
 
-                            bool boxHitsBrick = willHitBrick(shoudBoxMoveHere);
-                            bool boxHitsBox = willHitBox(shoudBoxMoveHere);
+                            bool boxHitsBrick = willHitBrick(shouldBoxMoveHere);
+                            bool boxHitsBox = willHitBox(shouldBoxMoveHere);
 
                             if (!boxHitsBrick && !boxHitsBox)
                             {
-                                bool hitRedOrb = willHitRedOrb(shoudBoxMoveHere);
+                                bool hitRedOrb = willHitRedOrb(shouldBoxMoveHere);
 
                                 if (hitRedOrb)
                                 {
-                                    PictureBox redOrb = getRedOrbByPoint(shoudBoxMoveHere);
+                                    PictureBox redOrb = getRedOrbByPoint(shouldBoxMoveHere);
                                     points++;
                                     scoredRedOrbs.Add(redOrb);
 
@@ -391,50 +392,50 @@ namespace BoxWorld
                                     }
                                 }
 
-                                wizard.Location = shoudMoveHere;
-                                box.Location = shoudBoxMoveHere;
+                                wizard.Location = shouldMoveHere;
+                                box.Location = shouldBoxMoveHere;
                             }
                         }
                         else
                         {
-                            wizard.Location = shoudMoveHere;
+                            wizard.Location = shouldMoveHere;
                         }
                     }
                     else
                     {
-                        wizard.Location = shoudMoveHere;
+                        wizard.Location = shouldMoveHere;
                     }
                 }
             }
            if (e.KeyChar == 'D' || e.KeyChar == 'd')
             {
-                Point shoudMoveHere = new Point(wizard.Location.X + 36, wizard.Location.Y);
+                Point shouldMoveHere = new Point(wizard.Location.X + 36, wizard.Location.Y);
 
-                bool hitBrick = willHitBrick(shoudMoveHere);
+                bool hitBrick = willHitBrick(shouldMoveHere);
 
                 if (!hitBrick)
                 {
-                    bool hitBox = willHitBox(shoudMoveHere);
+                    bool hitBox = willHitBox(shouldMoveHere);
 
                     if (hitBox)
                     {
-                        PictureBox box = getBoxByPoint(shoudMoveHere);
+                        PictureBox box = getBoxByPoint(shouldMoveHere);
 
                         if (box != null)
                         {
                             Point boxLocation = box.Location;
-                            Point shoudBoxMoveHere = new Point(boxLocation.X + 36, boxLocation.Y);
+                            Point shouldBoxMoveHere = new Point(boxLocation.X + 36, boxLocation.Y);
 
-                            bool boxHitsBrick = willHitBrick(shoudBoxMoveHere);
-                            bool boxHitsBox = willHitBox(shoudBoxMoveHere);
+                            bool boxHitsBrick = willHitBrick(shouldBoxMoveHere);
+                            bool boxHitsBox = willHitBox(shouldBoxMoveHere);
 
                             if (!boxHitsBrick && !boxHitsBox)
                             {
-                                bool hitRedOrb = willHitRedOrb(shoudBoxMoveHere);
+                                bool hitRedOrb = willHitRedOrb(shouldBoxMoveHere);
 
                                 if (hitRedOrb)
                                 {
-                                    PictureBox redOrb = getRedOrbByPoint(shoudBoxMoveHere);
+                                    PictureBox redOrb = getRedOrbByPoint(shouldBoxMoveHere);
                                     points++;
                                     scoredRedOrbs.Add(redOrb);
 
@@ -479,21 +480,23 @@ namespace BoxWorld
                                     }
                                 }
 
-                                wizard.Location = shoudMoveHere;
-                                box.Location = shoudBoxMoveHere;
+                                wizard.Location = shouldMoveHere;
+                                box.Location = shouldBoxMoveHere;
                             }
                         }
                         else
                         {
-                            wizard.Location = shoudMoveHere;
+                            wizard.Location = shouldMoveHere;
                         }
                     }
                     else
                     {
-                        wizard.Location = shoudMoveHere;
+                        wizard.Location = shouldMoveHere;
                     }
                 }
             }
+
+            Level1_victoryPopUp(points);
            
         }
 
@@ -505,5 +508,19 @@ namespace BoxWorld
                 Helper.popUp.ShowDialog();
             }
         }
+
+        private void Level1_Load(object sender, EventArgs e)
+        {
+
+        }
+        
+        private void Level1_victoryPopUp (int points)
+        {
+            if (points == 4)
+            {   
+                victoryPopUp.Show();
+            }
+        }
+         
     }
 }
