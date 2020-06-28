@@ -29,41 +29,41 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Level3));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.brick27 = new System.Windows.Forms.PictureBox();
+            this.brick28 = new System.Windows.Forms.PictureBox();
+            this.brick24 = new System.Windows.Forms.PictureBox();
+            this.brick29 = new System.Windows.Forms.PictureBox();
+            this.brick26 = new System.Windows.Forms.PictureBox();
+            this.brick25 = new System.Windows.Forms.PictureBox();
+            this.brick30 = new System.Windows.Forms.PictureBox();
+            this.brick23 = new System.Windows.Forms.PictureBox();
+            this.brick22 = new System.Windows.Forms.PictureBox();
+            this.brick2 = new System.Windows.Forms.PictureBox();
+            this.brick1 = new System.Windows.Forms.PictureBox();
+            this.brick5 = new System.Windows.Forms.PictureBox();
+            this.brick4 = new System.Windows.Forms.PictureBox();
+            this.brick3 = new System.Windows.Forms.PictureBox();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
-            this.pictureBox25 = new System.Windows.Forms.PictureBox();
-            this.pictureBox26 = new System.Windows.Forms.PictureBox();
-            this.pictureBox27 = new System.Windows.Forms.PictureBox();
-            this.pictureBox28 = new System.Windows.Forms.PictureBox();
-            this.pictureBox31 = new System.Windows.Forms.PictureBox();
-            this.pictureBox32 = new System.Windows.Forms.PictureBox();
-            this.pictureBox33 = new System.Windows.Forms.PictureBox();
-            this.pictureBox34 = new System.Windows.Forms.PictureBox();
-            this.pictureBox35 = new System.Windows.Forms.PictureBox();
-            this.pictureBox36 = new System.Windows.Forms.PictureBox();
-            this.pictureBox37 = new System.Windows.Forms.PictureBox();
+            this.brick32 = new System.Windows.Forms.PictureBox();
+            this.brick31 = new System.Windows.Forms.PictureBox();
+            this.brick8 = new System.Windows.Forms.PictureBox();
+            this.brick7 = new System.Windows.Forms.PictureBox();
+            this.brick6 = new System.Windows.Forms.PictureBox();
+            this.brick13 = new System.Windows.Forms.PictureBox();
+            this.brick9 = new System.Windows.Forms.PictureBox();
+            this.brick10 = new System.Windows.Forms.PictureBox();
+            this.brick14 = new System.Windows.Forms.PictureBox();
+            this.brick16 = new System.Windows.Forms.PictureBox();
+            this.brick12 = new System.Windows.Forms.PictureBox();
+            this.brick15 = new System.Windows.Forms.PictureBox();
+            this.brick11 = new System.Windows.Forms.PictureBox();
+            this.brick34 = new System.Windows.Forms.PictureBox();
+            this.brick35 = new System.Windows.Forms.PictureBox();
+            this.brick21 = new System.Windows.Forms.PictureBox();
+            this.brick20 = new System.Windows.Forms.PictureBox();
+            this.brick19 = new System.Windows.Forms.PictureBox();
+            this.brick18 = new System.Windows.Forms.PictureBox();
+            this.brick17 = new System.Windows.Forms.PictureBox();
             this.pictureBox30 = new System.Windows.Forms.PictureBox();
             this.pictureBox38 = new System.Windows.Forms.PictureBox();
             this.pictureBox39 = new System.Windows.Forms.PictureBox();
@@ -84,7 +84,7 @@
             this.pictureBox54 = new System.Windows.Forms.PictureBox();
             this.pictureBox55 = new System.Windows.Forms.PictureBox();
             this.pictureBox56 = new System.Windows.Forms.PictureBox();
-            this.pictureBox57 = new System.Windows.Forms.PictureBox();
+            this.brick33 = new System.Windows.Forms.PictureBox();
             this.pictureBox58 = new System.Windows.Forms.PictureBox();
             this.pictureBox59 = new System.Windows.Forms.PictureBox();
             this.pictureBox60 = new System.Windows.Forms.PictureBox();
@@ -92,50 +92,50 @@
             this.pictureBox62 = new System.Windows.Forms.PictureBox();
             this.pictureBox63 = new System.Windows.Forms.PictureBox();
             this.pictureBox64 = new System.Windows.Forms.PictureBox();
-            this.pictureBox65 = new System.Windows.Forms.PictureBox();
-            this.pictureBox66 = new System.Windows.Forms.PictureBox();
-            this.pictureBox67 = new System.Windows.Forms.PictureBox();
-            this.pictureBox68 = new System.Windows.Forms.PictureBox();
-            this.pictureBox29 = new System.Windows.Forms.PictureBox();
-            this.pictureBox69 = new System.Windows.Forms.PictureBox();
-            this.pictureBox70 = new System.Windows.Forms.PictureBox();
-            this.pictureBox71 = new System.Windows.Forms.PictureBox();
-            this.pictureBox72 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            this.box1 = new System.Windows.Forms.PictureBox();
+            this.box2 = new System.Windows.Forms.PictureBox();
+            this.box3 = new System.Windows.Forms.PictureBox();
+            this.box4 = new System.Windows.Forms.PictureBox();
+            this.redOrb1 = new System.Windows.Forms.PictureBox();
+            this.redOrb2 = new System.Windows.Forms.PictureBox();
+            this.redOrb3 = new System.Windows.Forms.PictureBox();
+            this.redOrb4 = new System.Windows.Forms.PictureBox();
+            this.wizard = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.brick27)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick28)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick29)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick26)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick25)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick30)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick32)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick31)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick34)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick35)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).BeginInit();
@@ -156,7 +156,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox54)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox55)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox56)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox57)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick33)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox58)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox59)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox60)).BeginInit();
@@ -164,170 +164,170 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox62)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox63)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox64)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox65)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox66)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox67)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox68)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox69)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox70)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox71)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox72)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.box1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.box2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.box3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.box4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.redOrb1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.redOrb2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.redOrb3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.redOrb4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.wizard)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // brick27
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(159, 232);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.brick27.Image = ((System.Drawing.Image)(resources.GetObject("brick27.Image")));
+            this.brick27.Location = new System.Drawing.Point(159, 232);
+            this.brick27.Margin = new System.Windows.Forms.Padding(0);
+            this.brick27.Name = "brick27";
+            this.brick27.Size = new System.Drawing.Size(48, 48);
+            this.brick27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick27.TabIndex = 0;
+            this.brick27.TabStop = false;
             // 
-            // pictureBox2
+            // brick28
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(159, 184);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.brick28.Image = ((System.Drawing.Image)(resources.GetObject("brick28.Image")));
+            this.brick28.Location = new System.Drawing.Point(159, 184);
+            this.brick28.Margin = new System.Windows.Forms.Padding(0);
+            this.brick28.Name = "brick28";
+            this.brick28.Size = new System.Drawing.Size(48, 48);
+            this.brick28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick28.TabIndex = 1;
+            this.brick28.TabStop = false;
             // 
-            // pictureBox3
+            // brick24
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(207, 328);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
+            this.brick24.Image = ((System.Drawing.Image)(resources.GetObject("brick24.Image")));
+            this.brick24.Location = new System.Drawing.Point(207, 328);
+            this.brick24.Margin = new System.Windows.Forms.Padding(0);
+            this.brick24.Name = "brick24";
+            this.brick24.Size = new System.Drawing.Size(48, 48);
+            this.brick24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick24.TabIndex = 2;
+            this.brick24.TabStop = false;
             // 
-            // pictureBox4
+            // brick29
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(207, 184);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
+            this.brick29.Image = ((System.Drawing.Image)(resources.GetObject("brick29.Image")));
+            this.brick29.Location = new System.Drawing.Point(207, 184);
+            this.brick29.Margin = new System.Windows.Forms.Padding(0);
+            this.brick29.Name = "brick29";
+            this.brick29.Size = new System.Drawing.Size(48, 48);
+            this.brick29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick29.TabIndex = 3;
+            this.brick29.TabStop = false;
             // 
-            // pictureBox5
+            // brick26
             // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(159, 280);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 4;
-            this.pictureBox5.TabStop = false;
+            this.brick26.Image = ((System.Drawing.Image)(resources.GetObject("brick26.Image")));
+            this.brick26.Location = new System.Drawing.Point(159, 280);
+            this.brick26.Margin = new System.Windows.Forms.Padding(0);
+            this.brick26.Name = "brick26";
+            this.brick26.Size = new System.Drawing.Size(48, 48);
+            this.brick26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick26.TabIndex = 4;
+            this.brick26.TabStop = false;
             // 
-            // pictureBox6
+            // brick25
             // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(159, 328);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 5;
-            this.pictureBox6.TabStop = false;
+            this.brick25.Image = ((System.Drawing.Image)(resources.GetObject("brick25.Image")));
+            this.brick25.Location = new System.Drawing.Point(159, 328);
+            this.brick25.Margin = new System.Windows.Forms.Padding(0);
+            this.brick25.Name = "brick25";
+            this.brick25.Size = new System.Drawing.Size(48, 48);
+            this.brick25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick25.TabIndex = 5;
+            this.brick25.TabStop = false;
             // 
-            // pictureBox7
+            // brick30
             // 
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(207, 136);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 6;
-            this.pictureBox7.TabStop = false;
+            this.brick30.Image = ((System.Drawing.Image)(resources.GetObject("brick30.Image")));
+            this.brick30.Location = new System.Drawing.Point(207, 136);
+            this.brick30.Margin = new System.Windows.Forms.Padding(0);
+            this.brick30.Name = "brick30";
+            this.brick30.Size = new System.Drawing.Size(48, 48);
+            this.brick30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick30.TabIndex = 6;
+            this.brick30.TabStop = false;
             // 
-            // pictureBox8
+            // brick23
             // 
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(207, 376);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 7;
-            this.pictureBox8.TabStop = false;
+            this.brick23.Image = ((System.Drawing.Image)(resources.GetObject("brick23.Image")));
+            this.brick23.Location = new System.Drawing.Point(207, 376);
+            this.brick23.Margin = new System.Windows.Forms.Padding(0);
+            this.brick23.Name = "brick23";
+            this.brick23.Size = new System.Drawing.Size(48, 48);
+            this.brick23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick23.TabIndex = 7;
+            this.brick23.TabStop = false;
             // 
-            // pictureBox9
+            // brick22
             // 
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(255, 376);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 8;
-            this.pictureBox9.TabStop = false;
+            this.brick22.Image = ((System.Drawing.Image)(resources.GetObject("brick22.Image")));
+            this.brick22.Location = new System.Drawing.Point(255, 376);
+            this.brick22.Margin = new System.Windows.Forms.Padding(0);
+            this.brick22.Name = "brick22";
+            this.brick22.Size = new System.Drawing.Size(48, 48);
+            this.brick22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick22.TabIndex = 8;
+            this.brick22.TabStop = false;
             // 
-            // pictureBox10
+            // brick2
             // 
-            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(255, 88);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 9;
-            this.pictureBox10.TabStop = false;
+            this.brick2.Image = ((System.Drawing.Image)(resources.GetObject("brick2.Image")));
+            this.brick2.Location = new System.Drawing.Point(255, 88);
+            this.brick2.Margin = new System.Windows.Forms.Padding(0);
+            this.brick2.Name = "brick2";
+            this.brick2.Size = new System.Drawing.Size(48, 48);
+            this.brick2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick2.TabIndex = 9;
+            this.brick2.TabStop = false;
             // 
-            // pictureBox11
+            // brick1
             // 
-            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
-            this.pictureBox11.Location = new System.Drawing.Point(207, 88);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox11.TabIndex = 10;
-            this.pictureBox11.TabStop = false;
+            this.brick1.Image = ((System.Drawing.Image)(resources.GetObject("brick1.Image")));
+            this.brick1.Location = new System.Drawing.Point(207, 88);
+            this.brick1.Margin = new System.Windows.Forms.Padding(0);
+            this.brick1.Name = "brick1";
+            this.brick1.Size = new System.Drawing.Size(48, 48);
+            this.brick1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick1.TabIndex = 10;
+            this.brick1.TabStop = false;
             // 
-            // pictureBox12
+            // brick5
             // 
-            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(399, 88);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox12.TabIndex = 11;
-            this.pictureBox12.TabStop = false;
+            this.brick5.Image = ((System.Drawing.Image)(resources.GetObject("brick5.Image")));
+            this.brick5.Location = new System.Drawing.Point(399, 88);
+            this.brick5.Margin = new System.Windows.Forms.Padding(0);
+            this.brick5.Name = "brick5";
+            this.brick5.Size = new System.Drawing.Size(48, 48);
+            this.brick5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick5.TabIndex = 11;
+            this.brick5.TabStop = false;
             // 
-            // pictureBox13
+            // brick4
             // 
-            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(351, 88);
-            this.pictureBox13.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox13.TabIndex = 12;
-            this.pictureBox13.TabStop = false;
+            this.brick4.Image = ((System.Drawing.Image)(resources.GetObject("brick4.Image")));
+            this.brick4.Location = new System.Drawing.Point(351, 88);
+            this.brick4.Margin = new System.Windows.Forms.Padding(0);
+            this.brick4.Name = "brick4";
+            this.brick4.Size = new System.Drawing.Size(48, 48);
+            this.brick4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick4.TabIndex = 12;
+            this.brick4.TabStop = false;
             // 
-            // pictureBox14
+            // brick3
             // 
-            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
-            this.pictureBox14.Location = new System.Drawing.Point(303, 88);
-            this.pictureBox14.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox14.TabIndex = 13;
-            this.pictureBox14.TabStop = false;
+            this.brick3.Image = ((System.Drawing.Image)(resources.GetObject("brick3.Image")));
+            this.brick3.Location = new System.Drawing.Point(303, 88);
+            this.brick3.Margin = new System.Windows.Forms.Padding(0);
+            this.brick3.Name = "brick3";
+            this.brick3.Size = new System.Drawing.Size(48, 48);
+            this.brick3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick3.TabIndex = 13;
+            this.brick3.TabStop = false;
             // 
             // pictureBox15
             // 
@@ -340,225 +340,225 @@
             this.pictureBox15.TabIndex = 14;
             this.pictureBox15.TabStop = false;
             // 
-            // pictureBox16
+            // brick32
             // 
-            this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
-            this.pictureBox16.Location = new System.Drawing.Point(351, 184);
-            this.pictureBox16.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox16.TabIndex = 15;
-            this.pictureBox16.TabStop = false;
+            this.brick32.Image = ((System.Drawing.Image)(resources.GetObject("brick32.Image")));
+            this.brick32.Location = new System.Drawing.Point(351, 184);
+            this.brick32.Margin = new System.Windows.Forms.Padding(0);
+            this.brick32.Name = "brick32";
+            this.brick32.Size = new System.Drawing.Size(48, 48);
+            this.brick32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick32.TabIndex = 15;
+            this.brick32.TabStop = false;
             // 
-            // pictureBox17
+            // brick31
             // 
-            this.pictureBox17.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox17.Image")));
-            this.pictureBox17.Location = new System.Drawing.Point(303, 184);
-            this.pictureBox17.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox17.TabIndex = 16;
-            this.pictureBox17.TabStop = false;
+            this.brick31.Image = ((System.Drawing.Image)(resources.GetObject("brick31.Image")));
+            this.brick31.Location = new System.Drawing.Point(303, 184);
+            this.brick31.Margin = new System.Windows.Forms.Padding(0);
+            this.brick31.Name = "brick31";
+            this.brick31.Size = new System.Drawing.Size(48, 48);
+            this.brick31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick31.TabIndex = 16;
+            this.brick31.TabStop = false;
             // 
-            // pictureBox18
+            // brick8
             // 
-            this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
-            this.pictureBox18.Location = new System.Drawing.Point(495, 136);
-            this.pictureBox18.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox18.TabIndex = 17;
-            this.pictureBox18.TabStop = false;
+            this.brick8.Image = ((System.Drawing.Image)(resources.GetObject("brick8.Image")));
+            this.brick8.Location = new System.Drawing.Point(495, 136);
+            this.brick8.Margin = new System.Windows.Forms.Padding(0);
+            this.brick8.Name = "brick8";
+            this.brick8.Size = new System.Drawing.Size(48, 48);
+            this.brick8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick8.TabIndex = 17;
+            this.brick8.TabStop = false;
             // 
-            // pictureBox19
+            // brick7
             // 
-            this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
-            this.pictureBox19.Location = new System.Drawing.Point(495, 88);
-            this.pictureBox19.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox19.TabIndex = 18;
-            this.pictureBox19.TabStop = false;
+            this.brick7.Image = ((System.Drawing.Image)(resources.GetObject("brick7.Image")));
+            this.brick7.Location = new System.Drawing.Point(495, 88);
+            this.brick7.Margin = new System.Windows.Forms.Padding(0);
+            this.brick7.Name = "brick7";
+            this.brick7.Size = new System.Drawing.Size(48, 48);
+            this.brick7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick7.TabIndex = 18;
+            this.brick7.TabStop = false;
             // 
-            // pictureBox20
+            // brick6
             // 
-            this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
-            this.pictureBox20.Location = new System.Drawing.Point(447, 88);
-            this.pictureBox20.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox20.TabIndex = 19;
-            this.pictureBox20.TabStop = false;
+            this.brick6.Image = ((System.Drawing.Image)(resources.GetObject("brick6.Image")));
+            this.brick6.Location = new System.Drawing.Point(447, 88);
+            this.brick6.Margin = new System.Windows.Forms.Padding(0);
+            this.brick6.Name = "brick6";
+            this.brick6.Size = new System.Drawing.Size(48, 48);
+            this.brick6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick6.TabIndex = 19;
+            this.brick6.TabStop = false;
             // 
-            // pictureBox21
+            // brick13
             // 
-            this.pictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox21.Image")));
-            this.pictureBox21.Location = new System.Drawing.Point(591, 280);
-            this.pictureBox21.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox21.TabIndex = 20;
-            this.pictureBox21.TabStop = false;
+            this.brick13.Image = ((System.Drawing.Image)(resources.GetObject("brick13.Image")));
+            this.brick13.Location = new System.Drawing.Point(591, 280);
+            this.brick13.Margin = new System.Windows.Forms.Padding(0);
+            this.brick13.Name = "brick13";
+            this.brick13.Size = new System.Drawing.Size(48, 48);
+            this.brick13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick13.TabIndex = 20;
+            this.brick13.TabStop = false;
             // 
-            // pictureBox22
+            // brick9
             // 
-            this.pictureBox22.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox22.Image")));
-            this.pictureBox22.Location = new System.Drawing.Point(543, 136);
-            this.pictureBox22.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox22.TabIndex = 21;
-            this.pictureBox22.TabStop = false;
+            this.brick9.Image = ((System.Drawing.Image)(resources.GetObject("brick9.Image")));
+            this.brick9.Location = new System.Drawing.Point(543, 136);
+            this.brick9.Margin = new System.Windows.Forms.Padding(0);
+            this.brick9.Name = "brick9";
+            this.brick9.Size = new System.Drawing.Size(48, 48);
+            this.brick9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick9.TabIndex = 21;
+            this.brick9.TabStop = false;
             // 
-            // pictureBox23
+            // brick10
             // 
-            this.pictureBox23.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox23.Image")));
-            this.pictureBox23.Location = new System.Drawing.Point(591, 136);
-            this.pictureBox23.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox23.TabIndex = 22;
-            this.pictureBox23.TabStop = false;
+            this.brick10.Image = ((System.Drawing.Image)(resources.GetObject("brick10.Image")));
+            this.brick10.Location = new System.Drawing.Point(591, 136);
+            this.brick10.Margin = new System.Windows.Forms.Padding(0);
+            this.brick10.Name = "brick10";
+            this.brick10.Size = new System.Drawing.Size(48, 48);
+            this.brick10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick10.TabIndex = 22;
+            this.brick10.TabStop = false;
             // 
-            // pictureBox24
+            // brick14
             // 
-            this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
-            this.pictureBox24.Location = new System.Drawing.Point(543, 280);
-            this.pictureBox24.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox24.TabIndex = 23;
-            this.pictureBox24.TabStop = false;
+            this.brick14.Image = ((System.Drawing.Image)(resources.GetObject("brick14.Image")));
+            this.brick14.Location = new System.Drawing.Point(543, 280);
+            this.brick14.Margin = new System.Windows.Forms.Padding(0);
+            this.brick14.Name = "brick14";
+            this.brick14.Size = new System.Drawing.Size(48, 48);
+            this.brick14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick14.TabIndex = 23;
+            this.brick14.TabStop = false;
             // 
-            // pictureBox25
+            // brick16
             // 
-            this.pictureBox25.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox25.Image")));
-            this.pictureBox25.Location = new System.Drawing.Point(543, 376);
-            this.pictureBox25.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox25.TabIndex = 24;
-            this.pictureBox25.TabStop = false;
+            this.brick16.Image = ((System.Drawing.Image)(resources.GetObject("brick16.Image")));
+            this.brick16.Location = new System.Drawing.Point(543, 376);
+            this.brick16.Margin = new System.Windows.Forms.Padding(0);
+            this.brick16.Name = "brick16";
+            this.brick16.Size = new System.Drawing.Size(48, 48);
+            this.brick16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick16.TabIndex = 24;
+            this.brick16.TabStop = false;
             // 
-            // pictureBox26
+            // brick12
             // 
-            this.pictureBox26.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox26.Image")));
-            this.pictureBox26.Location = new System.Drawing.Point(591, 232);
-            this.pictureBox26.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox26.TabIndex = 25;
-            this.pictureBox26.TabStop = false;
+            this.brick12.Image = ((System.Drawing.Image)(resources.GetObject("brick12.Image")));
+            this.brick12.Location = new System.Drawing.Point(591, 232);
+            this.brick12.Margin = new System.Windows.Forms.Padding(0);
+            this.brick12.Name = "brick12";
+            this.brick12.Size = new System.Drawing.Size(48, 48);
+            this.brick12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick12.TabIndex = 25;
+            this.brick12.TabStop = false;
             // 
-            // pictureBox27
+            // brick15
             // 
-            this.pictureBox27.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox27.Image")));
-            this.pictureBox27.Location = new System.Drawing.Point(543, 328);
-            this.pictureBox27.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox27.Name = "pictureBox27";
-            this.pictureBox27.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox27.TabIndex = 26;
-            this.pictureBox27.TabStop = false;
+            this.brick15.Image = ((System.Drawing.Image)(resources.GetObject("brick15.Image")));
+            this.brick15.Location = new System.Drawing.Point(543, 328);
+            this.brick15.Margin = new System.Windows.Forms.Padding(0);
+            this.brick15.Name = "brick15";
+            this.brick15.Size = new System.Drawing.Size(48, 48);
+            this.brick15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick15.TabIndex = 26;
+            this.brick15.TabStop = false;
             // 
-            // pictureBox28
+            // brick11
             // 
-            this.pictureBox28.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox28.Image")));
-            this.pictureBox28.Location = new System.Drawing.Point(591, 184);
-            this.pictureBox28.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox28.Name = "pictureBox28";
-            this.pictureBox28.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox28.TabIndex = 27;
-            this.pictureBox28.TabStop = false;
+            this.brick11.Image = ((System.Drawing.Image)(resources.GetObject("brick11.Image")));
+            this.brick11.Location = new System.Drawing.Point(591, 184);
+            this.brick11.Margin = new System.Windows.Forms.Padding(0);
+            this.brick11.Name = "brick11";
+            this.brick11.Size = new System.Drawing.Size(48, 48);
+            this.brick11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick11.TabIndex = 27;
+            this.brick11.TabStop = false;
             // 
-            // pictureBox31
+            // brick34
             // 
-            this.pictureBox31.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox31.Image")));
-            this.pictureBox31.Location = new System.Drawing.Point(351, 280);
-            this.pictureBox31.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox31.Name = "pictureBox31";
-            this.pictureBox31.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox31.TabIndex = 30;
-            this.pictureBox31.TabStop = false;
+            this.brick34.Image = ((System.Drawing.Image)(resources.GetObject("brick34.Image")));
+            this.brick34.Location = new System.Drawing.Point(351, 280);
+            this.brick34.Margin = new System.Windows.Forms.Padding(0);
+            this.brick34.Name = "brick34";
+            this.brick34.Size = new System.Drawing.Size(48, 48);
+            this.brick34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick34.TabIndex = 30;
+            this.brick34.TabStop = false;
             // 
-            // pictureBox32
+            // brick35
             // 
-            this.pictureBox32.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox32.Image")));
-            this.pictureBox32.Location = new System.Drawing.Point(351, 328);
-            this.pictureBox32.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox32.Name = "pictureBox32";
-            this.pictureBox32.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox32.TabIndex = 31;
-            this.pictureBox32.TabStop = false;
+            this.brick35.Image = ((System.Drawing.Image)(resources.GetObject("brick35.Image")));
+            this.brick35.Location = new System.Drawing.Point(351, 328);
+            this.brick35.Margin = new System.Windows.Forms.Padding(0);
+            this.brick35.Name = "brick35";
+            this.brick35.Size = new System.Drawing.Size(48, 48);
+            this.brick35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick35.TabIndex = 31;
+            this.brick35.TabStop = false;
             // 
-            // pictureBox33
+            // brick21
             // 
-            this.pictureBox33.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox33.Image")));
-            this.pictureBox33.Location = new System.Drawing.Point(303, 376);
-            this.pictureBox33.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox33.Name = "pictureBox33";
-            this.pictureBox33.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox33.TabIndex = 32;
-            this.pictureBox33.TabStop = false;
+            this.brick21.Image = ((System.Drawing.Image)(resources.GetObject("brick21.Image")));
+            this.brick21.Location = new System.Drawing.Point(303, 376);
+            this.brick21.Margin = new System.Windows.Forms.Padding(0);
+            this.brick21.Name = "brick21";
+            this.brick21.Size = new System.Drawing.Size(48, 48);
+            this.brick21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick21.TabIndex = 32;
+            this.brick21.TabStop = false;
             // 
-            // pictureBox34
+            // brick20
             // 
-            this.pictureBox34.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox34.Image")));
-            this.pictureBox34.Location = new System.Drawing.Point(351, 376);
-            this.pictureBox34.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox34.Name = "pictureBox34";
-            this.pictureBox34.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox34.TabIndex = 33;
-            this.pictureBox34.TabStop = false;
+            this.brick20.Image = ((System.Drawing.Image)(resources.GetObject("brick20.Image")));
+            this.brick20.Location = new System.Drawing.Point(351, 376);
+            this.brick20.Margin = new System.Windows.Forms.Padding(0);
+            this.brick20.Name = "brick20";
+            this.brick20.Size = new System.Drawing.Size(48, 48);
+            this.brick20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick20.TabIndex = 33;
+            this.brick20.TabStop = false;
             // 
-            // pictureBox35
+            // brick19
             // 
-            this.pictureBox35.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox35.Image")));
-            this.pictureBox35.Location = new System.Drawing.Point(399, 376);
-            this.pictureBox35.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox35.Name = "pictureBox35";
-            this.pictureBox35.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox35.TabIndex = 34;
-            this.pictureBox35.TabStop = false;
+            this.brick19.Image = ((System.Drawing.Image)(resources.GetObject("brick19.Image")));
+            this.brick19.Location = new System.Drawing.Point(399, 376);
+            this.brick19.Margin = new System.Windows.Forms.Padding(0);
+            this.brick19.Name = "brick19";
+            this.brick19.Size = new System.Drawing.Size(48, 48);
+            this.brick19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick19.TabIndex = 34;
+            this.brick19.TabStop = false;
             // 
-            // pictureBox36
+            // brick18
             // 
-            this.pictureBox36.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox36.Image")));
-            this.pictureBox36.Location = new System.Drawing.Point(447, 376);
-            this.pictureBox36.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox36.Name = "pictureBox36";
-            this.pictureBox36.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox36.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox36.TabIndex = 35;
-            this.pictureBox36.TabStop = false;
+            this.brick18.Image = ((System.Drawing.Image)(resources.GetObject("brick18.Image")));
+            this.brick18.Location = new System.Drawing.Point(447, 376);
+            this.brick18.Margin = new System.Windows.Forms.Padding(0);
+            this.brick18.Name = "brick18";
+            this.brick18.Size = new System.Drawing.Size(48, 48);
+            this.brick18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick18.TabIndex = 35;
+            this.brick18.TabStop = false;
             // 
-            // pictureBox37
+            // brick17
             // 
-            this.pictureBox37.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox37.Image")));
-            this.pictureBox37.Location = new System.Drawing.Point(495, 376);
-            this.pictureBox37.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox37.Name = "pictureBox37";
-            this.pictureBox37.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox37.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox37.TabIndex = 36;
-            this.pictureBox37.TabStop = false;
+            this.brick17.Image = ((System.Drawing.Image)(resources.GetObject("brick17.Image")));
+            this.brick17.Location = new System.Drawing.Point(495, 376);
+            this.brick17.Margin = new System.Windows.Forms.Padding(0);
+            this.brick17.Name = "brick17";
+            this.brick17.Size = new System.Drawing.Size(48, 48);
+            this.brick17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick17.TabIndex = 36;
+            this.brick17.TabStop = false;
             // 
             // pictureBox30
             // 
@@ -780,16 +780,16 @@
             this.pictureBox56.TabIndex = 57;
             this.pictureBox56.TabStop = false;
             // 
-            // pictureBox57
+            // brick33
             // 
-            this.pictureBox57.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox57.Image")));
-            this.pictureBox57.Location = new System.Drawing.Point(447, 184);
-            this.pictureBox57.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox57.Name = "pictureBox57";
-            this.pictureBox57.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox57.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox57.TabIndex = 58;
-            this.pictureBox57.TabStop = false;
+            this.brick33.Image = ((System.Drawing.Image)(resources.GetObject("brick33.Image")));
+            this.brick33.Location = new System.Drawing.Point(447, 184);
+            this.brick33.Margin = new System.Windows.Forms.Padding(0);
+            this.brick33.Name = "brick33";
+            this.brick33.Size = new System.Drawing.Size(48, 48);
+            this.brick33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.brick33.TabIndex = 58;
+            this.brick33.TabStop = false;
             // 
             // pictureBox58
             // 
@@ -868,114 +868,114 @@
             this.pictureBox64.TabIndex = 65;
             this.pictureBox64.TabStop = false;
             // 
-            // pictureBox65
+            // box1
             // 
-            this.pictureBox65.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox65.Image")));
-            this.pictureBox65.Location = new System.Drawing.Point(255, 184);
-            this.pictureBox65.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox65.Name = "pictureBox65";
-            this.pictureBox65.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox65.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox65.TabIndex = 66;
-            this.pictureBox65.TabStop = false;
+            this.box1.Image = ((System.Drawing.Image)(resources.GetObject("box1.Image")));
+            this.box1.Location = new System.Drawing.Point(255, 184);
+            this.box1.Margin = new System.Windows.Forms.Padding(0);
+            this.box1.Name = "box1";
+            this.box1.Size = new System.Drawing.Size(48, 48);
+            this.box1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.box1.TabIndex = 66;
+            this.box1.TabStop = false;
             // 
-            // pictureBox66
+            // box2
             // 
-            this.pictureBox66.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox66.Image")));
-            this.pictureBox66.Location = new System.Drawing.Point(351, 232);
-            this.pictureBox66.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox66.Name = "pictureBox66";
-            this.pictureBox66.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox66.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox66.TabIndex = 67;
-            this.pictureBox66.TabStop = false;
+            this.box2.Image = ((System.Drawing.Image)(resources.GetObject("box2.Image")));
+            this.box2.Location = new System.Drawing.Point(351, 232);
+            this.box2.Margin = new System.Windows.Forms.Padding(0);
+            this.box2.Name = "box2";
+            this.box2.Size = new System.Drawing.Size(48, 48);
+            this.box2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.box2.TabIndex = 67;
+            this.box2.TabStop = false;
             // 
-            // pictureBox67
+            // box3
             // 
-            this.pictureBox67.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox67.Image")));
-            this.pictureBox67.Location = new System.Drawing.Point(447, 280);
-            this.pictureBox67.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox67.Name = "pictureBox67";
-            this.pictureBox67.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox67.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox67.TabIndex = 68;
-            this.pictureBox67.TabStop = false;
+            this.box3.Image = ((System.Drawing.Image)(resources.GetObject("box3.Image")));
+            this.box3.Location = new System.Drawing.Point(447, 280);
+            this.box3.Margin = new System.Windows.Forms.Padding(0);
+            this.box3.Name = "box3";
+            this.box3.Size = new System.Drawing.Size(48, 48);
+            this.box3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.box3.TabIndex = 68;
+            this.box3.TabStop = false;
             // 
-            // pictureBox68
+            // box4
             // 
-            this.pictureBox68.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox68.Image")));
-            this.pictureBox68.Location = new System.Drawing.Point(495, 232);
-            this.pictureBox68.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox68.Name = "pictureBox68";
-            this.pictureBox68.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox68.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox68.TabIndex = 69;
-            this.pictureBox68.TabStop = false;
+            this.box4.Image = ((System.Drawing.Image)(resources.GetObject("box4.Image")));
+            this.box4.Location = new System.Drawing.Point(495, 232);
+            this.box4.Margin = new System.Windows.Forms.Padding(0);
+            this.box4.Name = "box4";
+            this.box4.Size = new System.Drawing.Size(48, 48);
+            this.box4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.box4.TabIndex = 69;
+            this.box4.TabStop = false;
             // 
-            // pictureBox29
+            // redOrb1
             // 
-            this.pictureBox29.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox29.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox29.BackgroundImage")));
-            this.pictureBox29.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox29.Image")));
-            this.pictureBox29.Location = new System.Drawing.Point(255, 280);
-            this.pictureBox29.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox29.Name = "pictureBox29";
-            this.pictureBox29.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox29.TabIndex = 70;
-            this.pictureBox29.TabStop = false;
+            this.redOrb1.BackColor = System.Drawing.Color.Transparent;
+            this.redOrb1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("redOrb1.BackgroundImage")));
+            this.redOrb1.Image = ((System.Drawing.Image)(resources.GetObject("redOrb1.Image")));
+            this.redOrb1.Location = new System.Drawing.Point(255, 280);
+            this.redOrb1.Margin = new System.Windows.Forms.Padding(0);
+            this.redOrb1.Name = "redOrb1";
+            this.redOrb1.Size = new System.Drawing.Size(48, 48);
+            this.redOrb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.redOrb1.TabIndex = 70;
+            this.redOrb1.TabStop = false;
             // 
-            // pictureBox69
+            // redOrb2
             // 
-            this.pictureBox69.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox69.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox69.BackgroundImage")));
-            this.pictureBox69.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox69.Image")));
-            this.pictureBox69.Location = new System.Drawing.Point(303, 280);
-            this.pictureBox69.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox69.Name = "pictureBox69";
-            this.pictureBox69.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox69.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox69.TabIndex = 71;
-            this.pictureBox69.TabStop = false;
+            this.redOrb2.BackColor = System.Drawing.Color.Transparent;
+            this.redOrb2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("redOrb2.BackgroundImage")));
+            this.redOrb2.Image = ((System.Drawing.Image)(resources.GetObject("redOrb2.Image")));
+            this.redOrb2.Location = new System.Drawing.Point(303, 280);
+            this.redOrb2.Margin = new System.Windows.Forms.Padding(0);
+            this.redOrb2.Name = "redOrb2";
+            this.redOrb2.Size = new System.Drawing.Size(48, 48);
+            this.redOrb2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.redOrb2.TabIndex = 71;
+            this.redOrb2.TabStop = false;
             // 
-            // pictureBox70
+            // redOrb3
             // 
-            this.pictureBox70.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox70.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox70.BackgroundImage")));
-            this.pictureBox70.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox70.Image")));
-            this.pictureBox70.Location = new System.Drawing.Point(255, 328);
-            this.pictureBox70.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox70.Name = "pictureBox70";
-            this.pictureBox70.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox70.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox70.TabIndex = 72;
-            this.pictureBox70.TabStop = false;
+            this.redOrb3.BackColor = System.Drawing.Color.Transparent;
+            this.redOrb3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("redOrb3.BackgroundImage")));
+            this.redOrb3.Image = ((System.Drawing.Image)(resources.GetObject("redOrb3.Image")));
+            this.redOrb3.Location = new System.Drawing.Point(255, 328);
+            this.redOrb3.Margin = new System.Windows.Forms.Padding(0);
+            this.redOrb3.Name = "redOrb3";
+            this.redOrb3.Size = new System.Drawing.Size(48, 48);
+            this.redOrb3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.redOrb3.TabIndex = 72;
+            this.redOrb3.TabStop = false;
             // 
-            // pictureBox71
+            // redOrb4
             // 
-            this.pictureBox71.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox71.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox71.BackgroundImage")));
-            this.pictureBox71.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox71.Image")));
-            this.pictureBox71.Location = new System.Drawing.Point(303, 328);
-            this.pictureBox71.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox71.Name = "pictureBox71";
-            this.pictureBox71.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox71.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox71.TabIndex = 73;
-            this.pictureBox71.TabStop = false;
+            this.redOrb4.BackColor = System.Drawing.Color.Transparent;
+            this.redOrb4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("redOrb4.BackgroundImage")));
+            this.redOrb4.Image = ((System.Drawing.Image)(resources.GetObject("redOrb4.Image")));
+            this.redOrb4.Location = new System.Drawing.Point(303, 328);
+            this.redOrb4.Margin = new System.Windows.Forms.Padding(0);
+            this.redOrb4.Name = "redOrb4";
+            this.redOrb4.Size = new System.Drawing.Size(48, 48);
+            this.redOrb4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.redOrb4.TabIndex = 73;
+            this.redOrb4.TabStop = false;
             // 
-            // pictureBox72
+            // wizard
             // 
-            this.pictureBox72.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox72.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox72.BackgroundImage")));
-            this.pictureBox72.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox72.Image")));
-            this.pictureBox72.Location = new System.Drawing.Point(255, 232);
-            this.pictureBox72.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox72.Name = "pictureBox72";
-            this.pictureBox72.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox72.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox72.TabIndex = 74;
-            this.pictureBox72.TabStop = false;
+            this.wizard.BackColor = System.Drawing.Color.Transparent;
+            this.wizard.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("wizard.BackgroundImage")));
+            this.wizard.Image = ((System.Drawing.Image)(resources.GetObject("wizard.Image")));
+            this.wizard.Location = new System.Drawing.Point(255, 232);
+            this.wizard.Margin = new System.Windows.Forms.Padding(0);
+            this.wizard.Name = "wizard";
+            this.wizard.Size = new System.Drawing.Size(48, 48);
+            this.wizard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.wizard.TabIndex = 74;
+            this.wizard.TabStop = false;
             // 
             // Level3
             // 
@@ -983,15 +983,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(782, 501);
-            this.Controls.Add(this.pictureBox72);
-            this.Controls.Add(this.pictureBox71);
-            this.Controls.Add(this.pictureBox70);
-            this.Controls.Add(this.pictureBox69);
-            this.Controls.Add(this.pictureBox29);
-            this.Controls.Add(this.pictureBox68);
-            this.Controls.Add(this.pictureBox67);
-            this.Controls.Add(this.pictureBox66);
-            this.Controls.Add(this.pictureBox65);
+            this.Controls.Add(this.wizard);
+            this.Controls.Add(this.redOrb4);
+            this.Controls.Add(this.redOrb3);
+            this.Controls.Add(this.redOrb2);
+            this.Controls.Add(this.redOrb1);
+            this.Controls.Add(this.box4);
+            this.Controls.Add(this.box3);
+            this.Controls.Add(this.box2);
+            this.Controls.Add(this.box1);
             this.Controls.Add(this.pictureBox64);
             this.Controls.Add(this.pictureBox63);
             this.Controls.Add(this.pictureBox62);
@@ -999,7 +999,7 @@
             this.Controls.Add(this.pictureBox60);
             this.Controls.Add(this.pictureBox59);
             this.Controls.Add(this.pictureBox58);
-            this.Controls.Add(this.pictureBox57);
+            this.Controls.Add(this.brick33);
             this.Controls.Add(this.pictureBox56);
             this.Controls.Add(this.pictureBox55);
             this.Controls.Add(this.pictureBox54);
@@ -1020,81 +1020,81 @@
             this.Controls.Add(this.pictureBox39);
             this.Controls.Add(this.pictureBox38);
             this.Controls.Add(this.pictureBox30);
-            this.Controls.Add(this.pictureBox37);
-            this.Controls.Add(this.pictureBox36);
-            this.Controls.Add(this.pictureBox35);
-            this.Controls.Add(this.pictureBox34);
-            this.Controls.Add(this.pictureBox33);
-            this.Controls.Add(this.pictureBox32);
-            this.Controls.Add(this.pictureBox31);
-            this.Controls.Add(this.pictureBox28);
-            this.Controls.Add(this.pictureBox27);
-            this.Controls.Add(this.pictureBox26);
-            this.Controls.Add(this.pictureBox25);
-            this.Controls.Add(this.pictureBox24);
-            this.Controls.Add(this.pictureBox23);
-            this.Controls.Add(this.pictureBox22);
-            this.Controls.Add(this.pictureBox21);
-            this.Controls.Add(this.pictureBox20);
-            this.Controls.Add(this.pictureBox19);
-            this.Controls.Add(this.pictureBox18);
-            this.Controls.Add(this.pictureBox17);
-            this.Controls.Add(this.pictureBox16);
+            this.Controls.Add(this.brick17);
+            this.Controls.Add(this.brick18);
+            this.Controls.Add(this.brick19);
+            this.Controls.Add(this.brick20);
+            this.Controls.Add(this.brick21);
+            this.Controls.Add(this.brick35);
+            this.Controls.Add(this.brick34);
+            this.Controls.Add(this.brick11);
+            this.Controls.Add(this.brick15);
+            this.Controls.Add(this.brick12);
+            this.Controls.Add(this.brick16);
+            this.Controls.Add(this.brick14);
+            this.Controls.Add(this.brick10);
+            this.Controls.Add(this.brick9);
+            this.Controls.Add(this.brick13);
+            this.Controls.Add(this.brick6);
+            this.Controls.Add(this.brick7);
+            this.Controls.Add(this.brick8);
+            this.Controls.Add(this.brick31);
+            this.Controls.Add(this.brick32);
             this.Controls.Add(this.pictureBox15);
-            this.Controls.Add(this.pictureBox14);
-            this.Controls.Add(this.pictureBox13);
-            this.Controls.Add(this.pictureBox12);
-            this.Controls.Add(this.pictureBox11);
-            this.Controls.Add(this.pictureBox10);
-            this.Controls.Add(this.pictureBox9);
-            this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.brick3);
+            this.Controls.Add(this.brick4);
+            this.Controls.Add(this.brick5);
+            this.Controls.Add(this.brick1);
+            this.Controls.Add(this.brick2);
+            this.Controls.Add(this.brick22);
+            this.Controls.Add(this.brick23);
+            this.Controls.Add(this.brick30);
+            this.Controls.Add(this.brick25);
+            this.Controls.Add(this.brick26);
+            this.Controls.Add(this.brick29);
+            this.Controls.Add(this.brick24);
+            this.Controls.Add(this.brick28);
+            this.Controls.Add(this.brick27);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Level3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Level3";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick27)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick28)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick29)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick26)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick25)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick30)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick32)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick31)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick34)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick35)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).EndInit();
@@ -1115,7 +1115,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox54)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox55)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox56)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox57)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brick33)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox58)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox59)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox60)).EndInit();
@@ -1123,56 +1123,56 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox62)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox63)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox64)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox65)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox66)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox67)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox68)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox69)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox70)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox71)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox72)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.box1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.box2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.box3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.box4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.redOrb1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.redOrb2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.redOrb3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.redOrb4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.wizard)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.PictureBox pictureBox14;
+        private System.Windows.Forms.PictureBox brick27;
+        private System.Windows.Forms.PictureBox brick28;
+        private System.Windows.Forms.PictureBox brick24;
+        private System.Windows.Forms.PictureBox brick29;
+        private System.Windows.Forms.PictureBox brick26;
+        private System.Windows.Forms.PictureBox brick25;
+        private System.Windows.Forms.PictureBox brick30;
+        private System.Windows.Forms.PictureBox brick23;
+        private System.Windows.Forms.PictureBox brick22;
+        private System.Windows.Forms.PictureBox brick2;
+        private System.Windows.Forms.PictureBox brick1;
+        private System.Windows.Forms.PictureBox brick5;
+        private System.Windows.Forms.PictureBox brick4;
+        private System.Windows.Forms.PictureBox brick3;
         private System.Windows.Forms.PictureBox pictureBox15;
-        private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.PictureBox pictureBox17;
-        private System.Windows.Forms.PictureBox pictureBox18;
-        private System.Windows.Forms.PictureBox pictureBox19;
-        private System.Windows.Forms.PictureBox pictureBox20;
-        private System.Windows.Forms.PictureBox pictureBox21;
-        private System.Windows.Forms.PictureBox pictureBox22;
-        private System.Windows.Forms.PictureBox pictureBox23;
-        private System.Windows.Forms.PictureBox pictureBox24;
-        private System.Windows.Forms.PictureBox pictureBox25;
-        private System.Windows.Forms.PictureBox pictureBox26;
-        private System.Windows.Forms.PictureBox pictureBox27;
-        private System.Windows.Forms.PictureBox pictureBox28;
-        private System.Windows.Forms.PictureBox pictureBox31;
-        private System.Windows.Forms.PictureBox pictureBox32;
-        private System.Windows.Forms.PictureBox pictureBox33;
-        private System.Windows.Forms.PictureBox pictureBox34;
-        private System.Windows.Forms.PictureBox pictureBox35;
-        private System.Windows.Forms.PictureBox pictureBox36;
-        private System.Windows.Forms.PictureBox pictureBox37;
+        private System.Windows.Forms.PictureBox brick32;
+        private System.Windows.Forms.PictureBox brick31;
+        private System.Windows.Forms.PictureBox brick8;
+        private System.Windows.Forms.PictureBox brick7;
+        private System.Windows.Forms.PictureBox brick6;
+        private System.Windows.Forms.PictureBox brick13;
+        private System.Windows.Forms.PictureBox brick9;
+        private System.Windows.Forms.PictureBox brick10;
+        private System.Windows.Forms.PictureBox brick14;
+        private System.Windows.Forms.PictureBox brick16;
+        private System.Windows.Forms.PictureBox brick12;
+        private System.Windows.Forms.PictureBox brick15;
+        private System.Windows.Forms.PictureBox brick11;
+        private System.Windows.Forms.PictureBox brick34;
+        private System.Windows.Forms.PictureBox brick35;
+        private System.Windows.Forms.PictureBox brick21;
+        private System.Windows.Forms.PictureBox brick20;
+        private System.Windows.Forms.PictureBox brick19;
+        private System.Windows.Forms.PictureBox brick18;
+        private System.Windows.Forms.PictureBox brick17;
         private System.Windows.Forms.PictureBox pictureBox30;
         private System.Windows.Forms.PictureBox pictureBox38;
         private System.Windows.Forms.PictureBox pictureBox39;
@@ -1193,7 +1193,7 @@
         private System.Windows.Forms.PictureBox pictureBox54;
         private System.Windows.Forms.PictureBox pictureBox55;
         private System.Windows.Forms.PictureBox pictureBox56;
-        private System.Windows.Forms.PictureBox pictureBox57;
+        private System.Windows.Forms.PictureBox brick33;
         private System.Windows.Forms.PictureBox pictureBox58;
         private System.Windows.Forms.PictureBox pictureBox59;
         private System.Windows.Forms.PictureBox pictureBox60;
@@ -1201,14 +1201,14 @@
         private System.Windows.Forms.PictureBox pictureBox62;
         private System.Windows.Forms.PictureBox pictureBox63;
         private System.Windows.Forms.PictureBox pictureBox64;
-        private System.Windows.Forms.PictureBox pictureBox65;
-        private System.Windows.Forms.PictureBox pictureBox66;
-        private System.Windows.Forms.PictureBox pictureBox67;
-        private System.Windows.Forms.PictureBox pictureBox68;
-        private System.Windows.Forms.PictureBox pictureBox29;
-        private System.Windows.Forms.PictureBox pictureBox69;
-        private System.Windows.Forms.PictureBox pictureBox70;
-        private System.Windows.Forms.PictureBox pictureBox71;
-        private System.Windows.Forms.PictureBox pictureBox72;
+        private System.Windows.Forms.PictureBox box1;
+        private System.Windows.Forms.PictureBox box2;
+        private System.Windows.Forms.PictureBox box3;
+        private System.Windows.Forms.PictureBox box4;
+        private System.Windows.Forms.PictureBox redOrb1;
+        private System.Windows.Forms.PictureBox redOrb2;
+        private System.Windows.Forms.PictureBox redOrb3;
+        private System.Windows.Forms.PictureBox redOrb4;
+        private System.Windows.Forms.PictureBox wizard;
     }
 }

@@ -509,16 +509,13 @@ namespace BoxWorld
             }
         }
 
-        private void Level1_Load(object sender, EventArgs e)
-        {
-
-        }
         
         private void Level1_victoryPopUp (int points)
         {
             if (points == 4)
             {   
                 victoryPopUp.Show();
+                this.Close();
             }
         }
          

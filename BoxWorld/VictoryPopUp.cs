@@ -22,7 +22,7 @@ namespace BoxWorld
             Level1 level1 = new Level1();
             Level2 level2 = new Level2();
             this.Hide();
-            level1.Hide();
+            level1.Close();
             level2.Show();
         }
     }
