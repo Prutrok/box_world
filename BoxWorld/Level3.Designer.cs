@@ -984,14 +984,14 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(782, 501);
             this.Controls.Add(this.wizard);
-            this.Controls.Add(this.redOrb4);
-            this.Controls.Add(this.redOrb3);
-            this.Controls.Add(this.redOrb2);
-            this.Controls.Add(this.redOrb1);
             this.Controls.Add(this.box4);
             this.Controls.Add(this.box3);
             this.Controls.Add(this.box2);
             this.Controls.Add(this.box1);
+            this.Controls.Add(this.redOrb4);
+            this.Controls.Add(this.redOrb3);
+            this.Controls.Add(this.redOrb2);
+            this.Controls.Add(this.redOrb1);
             this.Controls.Add(this.pictureBox64);
             this.Controls.Add(this.pictureBox63);
             this.Controls.Add(this.pictureBox62);

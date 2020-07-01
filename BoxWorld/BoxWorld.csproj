@@ -111,8 +111,11 @@
     <Compile Include="Level5.Designer.cs">
       <DependentUpon>Level5.cs</DependentUpon>
     </Compile>
+    <Compile Include="Moving.cs" />
+    <Compile Include="PictureBoxLocation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FormState.cs" />
     <Compile Include="VictoryPopUp.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -941,7 +941,7 @@
             this.redOrb1.BackColor = System.Drawing.Color.Transparent;
             this.redOrb1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("redOrb1.BackgroundImage")));
             this.redOrb1.Image = ((System.Drawing.Image)(resources.GetObject("redOrb1.Image")));
-            this.redOrb1.Location = new System.Drawing.Point(464, 271);
+            this.redOrb1.Location = new System.Drawing.Point(464, 272);
             this.redOrb1.Margin = new System.Windows.Forms.Padding(0);
             this.redOrb1.Name = "redOrb1";
             this.redOrb1.Size = new System.Drawing.Size(48, 48);
@@ -968,13 +968,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(782, 501);
-            this.Controls.Add(this.redOrb2);
-            this.Controls.Add(this.redOrb1);
-            this.Controls.Add(this.redOrb3);
             this.Controls.Add(this.wizard);
             this.Controls.Add(this.box2);
             this.Controls.Add(this.box1);
             this.Controls.Add(this.box3);
+            this.Controls.Add(this.redOrb2);
+            this.Controls.Add(this.redOrb1);
+            this.Controls.Add(this.redOrb3);
             this.Controls.Add(this.pictureBox64);
             this.Controls.Add(this.pictureBox63);
             this.Controls.Add(this.pictureBox62);

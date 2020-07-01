@@ -12,18 +12,23 @@ namespace BoxWorld
 {
     public partial class VictoryPopUp : Form
     {
-        public VictoryPopUp()
+
+        Form calledBy;
+        Form nextLevel;
+
+        public VictoryPopUp(Form calledBy, Form nextLevel)
         {
             InitializeComponent();
+
+            this.calledBy = calledBy;
+            this.nextLevel = nextLevel;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Level1 level1 = new Level1();
-            Level2 level2 = new Level2();
-            this.Hide();
-            level1.Close();
-            level2.Show();
+            calledBy.Close();
+            nextLevel.Show();
+            this.Close();
         }
     }
 }
