@@ -64,8 +64,6 @@ namespace BoxWorld
             bricks.Add(brick26);
             bricks.Add(brick27);
             bricks.Add(brick28);
-
-            victoryPopUp = new VictoryPopUp(this, new Level2());
         }
 
         public void InitState(FormState formState)
@@ -123,6 +121,7 @@ namespace BoxWorld
                 Helper.popUp.FormState.wizardLocation.X = wizard.Location.X;
                 Helper.popUp.FormState.wizardLocation.Y = wizard.Location.Y;
                 Helper.popUp.FormState.scoredRedOrbNames = Helper.extractNamesFromPictureBoxes(scoredRedOrbs);
+                Helper.popUp.exitLabel.Text = "Are you sure you want to exit BoxWorld? (Game will be saved)";
                 Helper.popUp.ShowDialog();
             }
         }
@@ -133,6 +132,7 @@ namespace BoxWorld
             if (points == 4)
             {
                 didWin = true;
+                victoryPopUp = new VictoryPopUp(this, new Level2());
                 victoryPopUp.ShowDialog();
             }
         }

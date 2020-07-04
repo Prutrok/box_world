@@ -29,19 +29,19 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ExitPopUp));
-            this.label1 = new System.Windows.Forms.Label();
+            this.exitLabel = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // exitLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(31, 39);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(262, 17);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Are you sure you want to exit BoxWorld?";
+            this.exitLabel.Location = new System.Drawing.Point(12, 20);
+            this.exitLabel.Name = "exitLabel";
+            this.exitLabel.Size = new System.Drawing.Size(291, 56);
+            this.exitLabel.TabIndex = 0;
+            this.exitLabel.Text = "Are you sure you want to exit BoxWorld?";
+            this.exitLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // button1
             // 
@@ -70,7 +70,7 @@
             this.ClientSize = new System.Drawing.Size(305, 114);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.exitLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -79,13 +79,12 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quit game?";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        public System.Windows.Forms.Label exitLabel;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
     }

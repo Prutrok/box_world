@@ -172,12 +172,17 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="Assets\a.png" />
     <Content Include="Assets\box bg.gif" />
     <Content Include="Assets\box final.ico" />
     <Content Include="Assets\bricksx64.png" />
     <Content Include="Assets\bricksx64_inner.png" />
     <EmbeddedResource Include="Assets\crate_green.jpg" />
+    <Content Include="Assets\d.png" />
+    <Content Include="Assets\r.png" />
     <Content Include="Assets\red_orb2.png" />
+    <Content Include="Assets\s.png" />
+    <Content Include="Assets\w.png" />
     <Content Include="Assets\WizardAnimated.gif" />
     <EmbeddedResource Include="Assets\wooden_crate2.png" />
     <None Include="Resources\CrateGreen.png" />

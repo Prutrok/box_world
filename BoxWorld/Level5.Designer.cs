@@ -131,6 +131,16 @@
             this.box5 = new System.Windows.Forms.PictureBox();
             this.box4 = new System.Windows.Forms.PictureBox();
             this.wizard = new System.Windows.Forms.PictureBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.brick1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.brick2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.brick4)).BeginInit();
@@ -233,12 +243,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.box5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.box4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.wizard)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // brick1
             // 
             this.brick1.Image = ((System.Drawing.Image)(resources.GetObject("brick1.Image")));
-            this.brick1.Location = new System.Drawing.Point(180, 41);
+            this.brick1.Location = new System.Drawing.Point(140, 34);
             this.brick1.Margin = new System.Windows.Forms.Padding(0);
             this.brick1.Name = "brick1";
             this.brick1.Size = new System.Drawing.Size(48, 48);
@@ -249,7 +264,7 @@
             // brick2
             // 
             this.brick2.Image = ((System.Drawing.Image)(resources.GetObject("brick2.Image")));
-            this.brick2.Location = new System.Drawing.Point(228, 41);
+            this.brick2.Location = new System.Drawing.Point(188, 34);
             this.brick2.Margin = new System.Windows.Forms.Padding(0);
             this.brick2.Name = "brick2";
             this.brick2.Size = new System.Drawing.Size(48, 48);
@@ -260,7 +275,7 @@
             // brick4
             // 
             this.brick4.Image = ((System.Drawing.Image)(resources.GetObject("brick4.Image")));
-            this.brick4.Location = new System.Drawing.Point(324, 41);
+            this.brick4.Location = new System.Drawing.Point(284, 34);
             this.brick4.Margin = new System.Windows.Forms.Padding(0);
             this.brick4.Name = "brick4";
             this.brick4.Size = new System.Drawing.Size(48, 48);
@@ -271,7 +286,7 @@
             // brick3
             // 
             this.brick3.Image = ((System.Drawing.Image)(resources.GetObject("brick3.Image")));
-            this.brick3.Location = new System.Drawing.Point(276, 41);
+            this.brick3.Location = new System.Drawing.Point(236, 34);
             this.brick3.Margin = new System.Windows.Forms.Padding(0);
             this.brick3.Name = "brick3";
             this.brick3.Size = new System.Drawing.Size(48, 48);
@@ -282,7 +297,7 @@
             // brick7
             // 
             this.brick7.Image = ((System.Drawing.Image)(resources.GetObject("brick7.Image")));
-            this.brick7.Location = new System.Drawing.Point(372, 41);
+            this.brick7.Location = new System.Drawing.Point(332, 34);
             this.brick7.Margin = new System.Windows.Forms.Padding(0);
             this.brick7.Name = "brick7";
             this.brick7.Size = new System.Drawing.Size(48, 48);
@@ -293,7 +308,7 @@
             // brick8
             // 
             this.brick8.Image = ((System.Drawing.Image)(resources.GetObject("brick8.Image")));
-            this.brick8.Location = new System.Drawing.Point(420, 41);
+            this.brick8.Location = new System.Drawing.Point(380, 34);
             this.brick8.Margin = new System.Windows.Forms.Padding(0);
             this.brick8.Name = "brick8";
             this.brick8.Size = new System.Drawing.Size(48, 48);
@@ -304,7 +319,7 @@
             // brick9
             // 
             this.brick9.Image = ((System.Drawing.Image)(resources.GetObject("brick9.Image")));
-            this.brick9.Location = new System.Drawing.Point(468, 41);
+            this.brick9.Location = new System.Drawing.Point(428, 34);
             this.brick9.Margin = new System.Windows.Forms.Padding(0);
             this.brick9.Name = "brick9";
             this.brick9.Size = new System.Drawing.Size(48, 48);
@@ -315,7 +330,7 @@
             // brick10
             // 
             this.brick10.Image = ((System.Drawing.Image)(resources.GetObject("brick10.Image")));
-            this.brick10.Location = new System.Drawing.Point(516, 41);
+            this.brick10.Location = new System.Drawing.Point(476, 34);
             this.brick10.Margin = new System.Windows.Forms.Padding(0);
             this.brick10.Name = "brick10";
             this.brick10.Size = new System.Drawing.Size(48, 48);
@@ -326,7 +341,7 @@
             // brick6
             // 
             this.brick6.Image = ((System.Drawing.Image)(resources.GetObject("brick6.Image")));
-            this.brick6.Location = new System.Drawing.Point(372, 89);
+            this.brick6.Location = new System.Drawing.Point(332, 82);
             this.brick6.Margin = new System.Windows.Forms.Padding(0);
             this.brick6.Name = "brick6";
             this.brick6.Size = new System.Drawing.Size(48, 48);
@@ -337,7 +352,7 @@
             // brick11
             // 
             this.brick11.Image = ((System.Drawing.Image)(resources.GetObject("brick11.Image")));
-            this.brick11.Location = new System.Drawing.Point(564, 41);
+            this.brick11.Location = new System.Drawing.Point(524, 34);
             this.brick11.Margin = new System.Windows.Forms.Padding(0);
             this.brick11.Name = "brick11";
             this.brick11.Size = new System.Drawing.Size(48, 48);
@@ -348,7 +363,7 @@
             // brick5
             // 
             this.brick5.Image = ((System.Drawing.Image)(resources.GetObject("brick5.Image")));
-            this.brick5.Location = new System.Drawing.Point(324, 89);
+            this.brick5.Location = new System.Drawing.Point(284, 82);
             this.brick5.Margin = new System.Windows.Forms.Padding(0);
             this.brick5.Name = "brick5";
             this.brick5.Size = new System.Drawing.Size(48, 48);
@@ -359,7 +374,7 @@
             // brick12
             // 
             this.brick12.Image = ((System.Drawing.Image)(resources.GetObject("brick12.Image")));
-            this.brick12.Location = new System.Drawing.Point(564, 89);
+            this.brick12.Location = new System.Drawing.Point(524, 82);
             this.brick12.Margin = new System.Windows.Forms.Padding(0);
             this.brick12.Name = "brick12";
             this.brick12.Size = new System.Drawing.Size(48, 48);
@@ -370,7 +385,7 @@
             // brick39
             // 
             this.brick39.Image = ((System.Drawing.Image)(resources.GetObject("brick39.Image")));
-            this.brick39.Location = new System.Drawing.Point(180, 89);
+            this.brick39.Location = new System.Drawing.Point(140, 82);
             this.brick39.Margin = new System.Windows.Forms.Padding(0);
             this.brick39.Name = "brick39";
             this.brick39.Size = new System.Drawing.Size(48, 48);
@@ -381,7 +396,7 @@
             // brick13
             // 
             this.brick13.Image = ((System.Drawing.Image)(resources.GetObject("brick13.Image")));
-            this.brick13.Location = new System.Drawing.Point(564, 137);
+            this.brick13.Location = new System.Drawing.Point(524, 130);
             this.brick13.Margin = new System.Windows.Forms.Padding(0);
             this.brick13.Name = "brick13";
             this.brick13.Size = new System.Drawing.Size(48, 48);
@@ -392,7 +407,7 @@
             // brick14
             // 
             this.brick14.Image = ((System.Drawing.Image)(resources.GetObject("brick14.Image")));
-            this.brick14.Location = new System.Drawing.Point(564, 185);
+            this.brick14.Location = new System.Drawing.Point(524, 178);
             this.brick14.Margin = new System.Windows.Forms.Padding(0);
             this.brick14.Name = "brick14";
             this.brick14.Size = new System.Drawing.Size(48, 48);
@@ -403,7 +418,7 @@
             // brick41
             // 
             this.brick41.Image = ((System.Drawing.Image)(resources.GetObject("brick41.Image")));
-            this.brick41.Location = new System.Drawing.Point(372, 185);
+            this.brick41.Location = new System.Drawing.Point(332, 178);
             this.brick41.Margin = new System.Windows.Forms.Padding(0);
             this.brick41.Name = "brick41";
             this.brick41.Size = new System.Drawing.Size(48, 48);
@@ -414,7 +429,7 @@
             // brick15
             // 
             this.brick15.Image = ((System.Drawing.Image)(resources.GetObject("brick15.Image")));
-            this.brick15.Location = new System.Drawing.Point(564, 233);
+            this.brick15.Location = new System.Drawing.Point(524, 226);
             this.brick15.Margin = new System.Windows.Forms.Padding(0);
             this.brick15.Name = "brick15";
             this.brick15.Size = new System.Drawing.Size(48, 48);
@@ -425,7 +440,7 @@
             // brick40
             // 
             this.brick40.Image = ((System.Drawing.Image)(resources.GetObject("brick40.Image")));
-            this.brick40.Location = new System.Drawing.Point(324, 185);
+            this.brick40.Location = new System.Drawing.Point(284, 178);
             this.brick40.Margin = new System.Windows.Forms.Padding(0);
             this.brick40.Name = "brick40";
             this.brick40.Size = new System.Drawing.Size(48, 48);
@@ -436,7 +451,7 @@
             // brick42
             // 
             this.brick42.Image = ((System.Drawing.Image)(resources.GetObject("brick42.Image")));
-            this.brick42.Location = new System.Drawing.Point(420, 185);
+            this.brick42.Location = new System.Drawing.Point(380, 178);
             this.brick42.Margin = new System.Windows.Forms.Padding(0);
             this.brick42.Name = "brick42";
             this.brick42.Size = new System.Drawing.Size(48, 48);
@@ -447,7 +462,7 @@
             // brick44
             // 
             this.brick44.Image = ((System.Drawing.Image)(resources.GetObject("brick44.Image")));
-            this.brick44.Location = new System.Drawing.Point(468, 281);
+            this.brick44.Location = new System.Drawing.Point(428, 274);
             this.brick44.Margin = new System.Windows.Forms.Padding(0);
             this.brick44.Name = "brick44";
             this.brick44.Size = new System.Drawing.Size(48, 48);
@@ -458,7 +473,7 @@
             // brick43
             // 
             this.brick43.Image = ((System.Drawing.Image)(resources.GetObject("brick43.Image")));
-            this.brick43.Location = new System.Drawing.Point(468, 233);
+            this.brick43.Location = new System.Drawing.Point(428, 226);
             this.brick43.Margin = new System.Windows.Forms.Padding(0);
             this.brick43.Name = "brick43";
             this.brick43.Size = new System.Drawing.Size(48, 48);
@@ -469,7 +484,7 @@
             // brick45
             // 
             this.brick45.Image = ((System.Drawing.Image)(resources.GetObject("brick45.Image")));
-            this.brick45.Location = new System.Drawing.Point(276, 281);
+            this.brick45.Location = new System.Drawing.Point(236, 274);
             this.brick45.Margin = new System.Windows.Forms.Padding(0);
             this.brick45.Name = "brick45";
             this.brick45.Size = new System.Drawing.Size(48, 48);
@@ -480,7 +495,7 @@
             // brick46
             // 
             this.brick46.Image = ((System.Drawing.Image)(resources.GetObject("brick46.Image")));
-            this.brick46.Location = new System.Drawing.Point(276, 233);
+            this.brick46.Location = new System.Drawing.Point(236, 226);
             this.brick46.Margin = new System.Windows.Forms.Padding(0);
             this.brick46.Name = "brick46";
             this.brick46.Size = new System.Drawing.Size(48, 48);
@@ -491,7 +506,7 @@
             // brick16
             // 
             this.brick16.Image = ((System.Drawing.Image)(resources.GetObject("brick16.Image")));
-            this.brick16.Location = new System.Drawing.Point(564, 281);
+            this.brick16.Location = new System.Drawing.Point(524, 274);
             this.brick16.Margin = new System.Windows.Forms.Padding(0);
             this.brick16.Name = "brick16";
             this.brick16.Size = new System.Drawing.Size(48, 48);
@@ -502,7 +517,7 @@
             // brick26
             // 
             this.brick26.Image = ((System.Drawing.Image)(resources.GetObject("brick26.Image")));
-            this.brick26.Location = new System.Drawing.Point(372, 425);
+            this.brick26.Location = new System.Drawing.Point(332, 418);
             this.brick26.Margin = new System.Windows.Forms.Padding(0);
             this.brick26.Name = "brick26";
             this.brick26.Size = new System.Drawing.Size(48, 48);
@@ -513,7 +528,7 @@
             // brick25
             // 
             this.brick25.Image = ((System.Drawing.Image)(resources.GetObject("brick25.Image")));
-            this.brick25.Location = new System.Drawing.Point(420, 377);
+            this.brick25.Location = new System.Drawing.Point(380, 370);
             this.brick25.Margin = new System.Windows.Forms.Padding(0);
             this.brick25.Name = "brick25";
             this.brick25.Size = new System.Drawing.Size(48, 48);
@@ -524,7 +539,7 @@
             // brick24
             // 
             this.brick24.Image = ((System.Drawing.Image)(resources.GetObject("brick24.Image")));
-            this.brick24.Location = new System.Drawing.Point(420, 425);
+            this.brick24.Location = new System.Drawing.Point(380, 418);
             this.brick24.Margin = new System.Windows.Forms.Padding(0);
             this.brick24.Name = "brick24";
             this.brick24.Size = new System.Drawing.Size(48, 48);
@@ -535,7 +550,7 @@
             // brick23
             // 
             this.brick23.Image = ((System.Drawing.Image)(resources.GetObject("brick23.Image")));
-            this.brick23.Location = new System.Drawing.Point(468, 425);
+            this.brick23.Location = new System.Drawing.Point(428, 418);
             this.brick23.Margin = new System.Windows.Forms.Padding(0);
             this.brick23.Name = "brick23";
             this.brick23.Size = new System.Drawing.Size(48, 48);
@@ -546,7 +561,7 @@
             // brick22
             // 
             this.brick22.Image = ((System.Drawing.Image)(resources.GetObject("brick22.Image")));
-            this.brick22.Location = new System.Drawing.Point(516, 425);
+            this.brick22.Location = new System.Drawing.Point(476, 418);
             this.brick22.Margin = new System.Windows.Forms.Padding(0);
             this.brick22.Name = "brick22";
             this.brick22.Size = new System.Drawing.Size(48, 48);
@@ -557,7 +572,7 @@
             // brick21
             // 
             this.brick21.Image = ((System.Drawing.Image)(resources.GetObject("brick21.Image")));
-            this.brick21.Location = new System.Drawing.Point(564, 425);
+            this.brick21.Location = new System.Drawing.Point(524, 418);
             this.brick21.Margin = new System.Windows.Forms.Padding(0);
             this.brick21.Name = "brick21";
             this.brick21.Size = new System.Drawing.Size(48, 48);
@@ -568,7 +583,7 @@
             // brick20
             // 
             this.brick20.Image = ((System.Drawing.Image)(resources.GetObject("brick20.Image")));
-            this.brick20.Location = new System.Drawing.Point(612, 425);
+            this.brick20.Location = new System.Drawing.Point(572, 418);
             this.brick20.Margin = new System.Windows.Forms.Padding(0);
             this.brick20.Name = "brick20";
             this.brick20.Size = new System.Drawing.Size(48, 48);
@@ -579,7 +594,7 @@
             // brick19
             // 
             this.brick19.Image = ((System.Drawing.Image)(resources.GetObject("brick19.Image")));
-            this.brick19.Location = new System.Drawing.Point(612, 377);
+            this.brick19.Location = new System.Drawing.Point(572, 370);
             this.brick19.Margin = new System.Windows.Forms.Padding(0);
             this.brick19.Name = "brick19";
             this.brick19.Size = new System.Drawing.Size(48, 48);
@@ -590,7 +605,7 @@
             // brick18
             // 
             this.brick18.Image = ((System.Drawing.Image)(resources.GetObject("brick18.Image")));
-            this.brick18.Location = new System.Drawing.Point(612, 329);
+            this.brick18.Location = new System.Drawing.Point(572, 322);
             this.brick18.Margin = new System.Windows.Forms.Padding(0);
             this.brick18.Name = "brick18";
             this.brick18.Size = new System.Drawing.Size(48, 48);
@@ -601,7 +616,7 @@
             // brick17
             // 
             this.brick17.Image = ((System.Drawing.Image)(resources.GetObject("brick17.Image")));
-            this.brick17.Location = new System.Drawing.Point(612, 281);
+            this.brick17.Location = new System.Drawing.Point(572, 274);
             this.brick17.Margin = new System.Windows.Forms.Padding(0);
             this.brick17.Name = "brick17";
             this.brick17.Size = new System.Drawing.Size(48, 48);
@@ -612,7 +627,7 @@
             // brick31
             // 
             this.brick31.Image = ((System.Drawing.Image)(resources.GetObject("brick31.Image")));
-            this.brick31.Location = new System.Drawing.Point(132, 425);
+            this.brick31.Location = new System.Drawing.Point(92, 418);
             this.brick31.Margin = new System.Windows.Forms.Padding(0);
             this.brick31.Name = "brick31";
             this.brick31.Size = new System.Drawing.Size(48, 48);
@@ -623,7 +638,7 @@
             // brick30
             // 
             this.brick30.Image = ((System.Drawing.Image)(resources.GetObject("brick30.Image")));
-            this.brick30.Location = new System.Drawing.Point(180, 425);
+            this.brick30.Location = new System.Drawing.Point(140, 418);
             this.brick30.Margin = new System.Windows.Forms.Padding(0);
             this.brick30.Name = "brick30";
             this.brick30.Size = new System.Drawing.Size(48, 48);
@@ -634,7 +649,7 @@
             // brick29
             // 
             this.brick29.Image = ((System.Drawing.Image)(resources.GetObject("brick29.Image")));
-            this.brick29.Location = new System.Drawing.Point(228, 425);
+            this.brick29.Location = new System.Drawing.Point(188, 418);
             this.brick29.Margin = new System.Windows.Forms.Padding(0);
             this.brick29.Name = "brick29";
             this.brick29.Size = new System.Drawing.Size(48, 48);
@@ -645,7 +660,7 @@
             // brick28
             // 
             this.brick28.Image = ((System.Drawing.Image)(resources.GetObject("brick28.Image")));
-            this.brick28.Location = new System.Drawing.Point(276, 425);
+            this.brick28.Location = new System.Drawing.Point(236, 418);
             this.brick28.Margin = new System.Windows.Forms.Padding(0);
             this.brick28.Name = "brick28";
             this.brick28.Size = new System.Drawing.Size(48, 48);
@@ -656,7 +671,7 @@
             // brick27
             // 
             this.brick27.Image = ((System.Drawing.Image)(resources.GetObject("brick27.Image")));
-            this.brick27.Location = new System.Drawing.Point(324, 425);
+            this.brick27.Location = new System.Drawing.Point(284, 418);
             this.brick27.Margin = new System.Windows.Forms.Padding(0);
             this.brick27.Name = "brick27";
             this.brick27.Size = new System.Drawing.Size(48, 48);
@@ -667,7 +682,7 @@
             // brick36
             // 
             this.brick36.Image = ((System.Drawing.Image)(resources.GetObject("brick36.Image")));
-            this.brick36.Location = new System.Drawing.Point(180, 233);
+            this.brick36.Location = new System.Drawing.Point(140, 226);
             this.brick36.Margin = new System.Windows.Forms.Padding(0);
             this.brick36.Name = "brick36";
             this.brick36.Size = new System.Drawing.Size(48, 48);
@@ -678,7 +693,7 @@
             // brick32
             // 
             this.brick32.Image = ((System.Drawing.Image)(resources.GetObject("brick32.Image")));
-            this.brick32.Location = new System.Drawing.Point(132, 377);
+            this.brick32.Location = new System.Drawing.Point(92, 370);
             this.brick32.Margin = new System.Windows.Forms.Padding(0);
             this.brick32.Name = "brick32";
             this.brick32.Size = new System.Drawing.Size(48, 48);
@@ -689,7 +704,7 @@
             // brick35
             // 
             this.brick35.Image = ((System.Drawing.Image)(resources.GetObject("brick35.Image")));
-            this.brick35.Location = new System.Drawing.Point(180, 281);
+            this.brick35.Location = new System.Drawing.Point(140, 274);
             this.brick35.Margin = new System.Windows.Forms.Padding(0);
             this.brick35.Name = "brick35";
             this.brick35.Size = new System.Drawing.Size(48, 48);
@@ -700,7 +715,7 @@
             // brick34
             // 
             this.brick34.Image = ((System.Drawing.Image)(resources.GetObject("brick34.Image")));
-            this.brick34.Location = new System.Drawing.Point(132, 281);
+            this.brick34.Location = new System.Drawing.Point(92, 274);
             this.brick34.Margin = new System.Windows.Forms.Padding(0);
             this.brick34.Name = "brick34";
             this.brick34.Size = new System.Drawing.Size(48, 48);
@@ -711,7 +726,7 @@
             // brick33
             // 
             this.brick33.Image = ((System.Drawing.Image)(resources.GetObject("brick33.Image")));
-            this.brick33.Location = new System.Drawing.Point(132, 329);
+            this.brick33.Location = new System.Drawing.Point(92, 322);
             this.brick33.Margin = new System.Windows.Forms.Padding(0);
             this.brick33.Name = "brick33";
             this.brick33.Size = new System.Drawing.Size(48, 48);
@@ -722,7 +737,7 @@
             // brick38
             // 
             this.brick38.Image = ((System.Drawing.Image)(resources.GetObject("brick38.Image")));
-            this.brick38.Location = new System.Drawing.Point(180, 137);
+            this.brick38.Location = new System.Drawing.Point(140, 130);
             this.brick38.Margin = new System.Windows.Forms.Padding(0);
             this.brick38.Name = "brick38";
             this.brick38.Size = new System.Drawing.Size(48, 48);
@@ -733,7 +748,7 @@
             // brick37
             // 
             this.brick37.Image = ((System.Drawing.Image)(resources.GetObject("brick37.Image")));
-            this.brick37.Location = new System.Drawing.Point(180, 185);
+            this.brick37.Location = new System.Drawing.Point(140, 178);
             this.brick37.Margin = new System.Windows.Forms.Padding(0);
             this.brick37.Name = "brick37";
             this.brick37.Size = new System.Drawing.Size(48, 48);
@@ -744,7 +759,7 @@
             // pictureBox45
             // 
             this.pictureBox45.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox45.Image")));
-            this.pictureBox45.Location = new System.Drawing.Point(228, 89);
+            this.pictureBox45.Location = new System.Drawing.Point(188, 82);
             this.pictureBox45.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox45.Name = "pictureBox45";
             this.pictureBox45.Size = new System.Drawing.Size(48, 48);
@@ -755,7 +770,7 @@
             // pictureBox48
             // 
             this.pictureBox48.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox48.Image")));
-            this.pictureBox48.Location = new System.Drawing.Point(276, 137);
+            this.pictureBox48.Location = new System.Drawing.Point(236, 130);
             this.pictureBox48.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox48.Name = "pictureBox48";
             this.pictureBox48.Size = new System.Drawing.Size(48, 48);
@@ -766,7 +781,7 @@
             // pictureBox49
             // 
             this.pictureBox49.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox49.Image")));
-            this.pictureBox49.Location = new System.Drawing.Point(228, 185);
+            this.pictureBox49.Location = new System.Drawing.Point(188, 178);
             this.pictureBox49.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox49.Name = "pictureBox49";
             this.pictureBox49.Size = new System.Drawing.Size(48, 48);
@@ -777,7 +792,7 @@
             // pictureBox50
             // 
             this.pictureBox50.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox50.Image")));
-            this.pictureBox50.Location = new System.Drawing.Point(276, 185);
+            this.pictureBox50.Location = new System.Drawing.Point(236, 178);
             this.pictureBox50.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox50.Name = "pictureBox50";
             this.pictureBox50.Size = new System.Drawing.Size(48, 48);
@@ -788,7 +803,7 @@
             // pictureBox51
             // 
             this.pictureBox51.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox51.Image")));
-            this.pictureBox51.Location = new System.Drawing.Point(372, 137);
+            this.pictureBox51.Location = new System.Drawing.Point(332, 130);
             this.pictureBox51.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox51.Name = "pictureBox51";
             this.pictureBox51.Size = new System.Drawing.Size(48, 48);
@@ -799,7 +814,7 @@
             // pictureBox52
             // 
             this.pictureBox52.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox52.Image")));
-            this.pictureBox52.Location = new System.Drawing.Point(324, 137);
+            this.pictureBox52.Location = new System.Drawing.Point(284, 130);
             this.pictureBox52.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox52.Name = "pictureBox52";
             this.pictureBox52.Size = new System.Drawing.Size(48, 48);
@@ -810,7 +825,7 @@
             // pictureBox53
             // 
             this.pictureBox53.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox53.Image")));
-            this.pictureBox53.Location = new System.Drawing.Point(420, 137);
+            this.pictureBox53.Location = new System.Drawing.Point(380, 130);
             this.pictureBox53.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox53.Name = "pictureBox53";
             this.pictureBox53.Size = new System.Drawing.Size(48, 48);
@@ -821,7 +836,7 @@
             // pictureBox54
             // 
             this.pictureBox54.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox54.Image")));
-            this.pictureBox54.Location = new System.Drawing.Point(420, 89);
+            this.pictureBox54.Location = new System.Drawing.Point(380, 82);
             this.pictureBox54.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox54.Name = "pictureBox54";
             this.pictureBox54.Size = new System.Drawing.Size(48, 48);
@@ -832,7 +847,7 @@
             // pictureBox55
             // 
             this.pictureBox55.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox55.Image")));
-            this.pictureBox55.Location = new System.Drawing.Point(468, 89);
+            this.pictureBox55.Location = new System.Drawing.Point(428, 82);
             this.pictureBox55.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox55.Name = "pictureBox55";
             this.pictureBox55.Size = new System.Drawing.Size(48, 48);
@@ -843,7 +858,7 @@
             // pictureBox56
             // 
             this.pictureBox56.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox56.Image")));
-            this.pictureBox56.Location = new System.Drawing.Point(468, 137);
+            this.pictureBox56.Location = new System.Drawing.Point(428, 130);
             this.pictureBox56.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox56.Name = "pictureBox56";
             this.pictureBox56.Size = new System.Drawing.Size(48, 48);
@@ -854,7 +869,7 @@
             // pictureBox57
             // 
             this.pictureBox57.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox57.Image")));
-            this.pictureBox57.Location = new System.Drawing.Point(516, 89);
+            this.pictureBox57.Location = new System.Drawing.Point(476, 82);
             this.pictureBox57.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox57.Name = "pictureBox57";
             this.pictureBox57.Size = new System.Drawing.Size(48, 48);
@@ -865,7 +880,7 @@
             // pictureBox58
             // 
             this.pictureBox58.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox58.Image")));
-            this.pictureBox58.Location = new System.Drawing.Point(516, 137);
+            this.pictureBox58.Location = new System.Drawing.Point(476, 130);
             this.pictureBox58.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox58.Name = "pictureBox58";
             this.pictureBox58.Size = new System.Drawing.Size(48, 48);
@@ -876,7 +891,7 @@
             // pictureBox59
             // 
             this.pictureBox59.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox59.Image")));
-            this.pictureBox59.Location = new System.Drawing.Point(468, 185);
+            this.pictureBox59.Location = new System.Drawing.Point(428, 178);
             this.pictureBox59.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox59.Name = "pictureBox59";
             this.pictureBox59.Size = new System.Drawing.Size(48, 48);
@@ -887,7 +902,7 @@
             // pictureBox60
             // 
             this.pictureBox60.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox60.Image")));
-            this.pictureBox60.Location = new System.Drawing.Point(516, 185);
+            this.pictureBox60.Location = new System.Drawing.Point(476, 178);
             this.pictureBox60.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox60.Name = "pictureBox60";
             this.pictureBox60.Size = new System.Drawing.Size(48, 48);
@@ -898,7 +913,7 @@
             // pictureBox61
             // 
             this.pictureBox61.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox61.Image")));
-            this.pictureBox61.Location = new System.Drawing.Point(516, 233);
+            this.pictureBox61.Location = new System.Drawing.Point(476, 226);
             this.pictureBox61.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox61.Name = "pictureBox61";
             this.pictureBox61.Size = new System.Drawing.Size(48, 48);
@@ -909,7 +924,7 @@
             // pictureBox62
             // 
             this.pictureBox62.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox62.Image")));
-            this.pictureBox62.Location = new System.Drawing.Point(228, 137);
+            this.pictureBox62.Location = new System.Drawing.Point(188, 130);
             this.pictureBox62.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox62.Name = "pictureBox62";
             this.pictureBox62.Size = new System.Drawing.Size(48, 48);
@@ -920,7 +935,7 @@
             // pictureBox63
             // 
             this.pictureBox63.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox63.Image")));
-            this.pictureBox63.Location = new System.Drawing.Point(276, 89);
+            this.pictureBox63.Location = new System.Drawing.Point(236, 82);
             this.pictureBox63.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox63.Name = "pictureBox63";
             this.pictureBox63.Size = new System.Drawing.Size(48, 48);
@@ -931,7 +946,7 @@
             // pictureBox64
             // 
             this.pictureBox64.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox64.Image")));
-            this.pictureBox64.Location = new System.Drawing.Point(564, 329);
+            this.pictureBox64.Location = new System.Drawing.Point(524, 322);
             this.pictureBox64.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox64.Name = "pictureBox64";
             this.pictureBox64.Size = new System.Drawing.Size(48, 48);
@@ -942,7 +957,7 @@
             // pictureBox65
             // 
             this.pictureBox65.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox65.Image")));
-            this.pictureBox65.Location = new System.Drawing.Point(516, 281);
+            this.pictureBox65.Location = new System.Drawing.Point(476, 274);
             this.pictureBox65.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox65.Name = "pictureBox65";
             this.pictureBox65.Size = new System.Drawing.Size(48, 48);
@@ -953,7 +968,7 @@
             // pictureBox66
             // 
             this.pictureBox66.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox66.Image")));
-            this.pictureBox66.Location = new System.Drawing.Point(468, 329);
+            this.pictureBox66.Location = new System.Drawing.Point(428, 322);
             this.pictureBox66.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox66.Name = "pictureBox66";
             this.pictureBox66.Size = new System.Drawing.Size(48, 48);
@@ -964,7 +979,7 @@
             // pictureBox67
             // 
             this.pictureBox67.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox67.Image")));
-            this.pictureBox67.Location = new System.Drawing.Point(468, 377);
+            this.pictureBox67.Location = new System.Drawing.Point(428, 370);
             this.pictureBox67.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox67.Name = "pictureBox67";
             this.pictureBox67.Size = new System.Drawing.Size(48, 48);
@@ -975,7 +990,7 @@
             // pictureBox68
             // 
             this.pictureBox68.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox68.Image")));
-            this.pictureBox68.Location = new System.Drawing.Point(516, 377);
+            this.pictureBox68.Location = new System.Drawing.Point(476, 370);
             this.pictureBox68.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox68.Name = "pictureBox68";
             this.pictureBox68.Size = new System.Drawing.Size(48, 48);
@@ -986,7 +1001,7 @@
             // pictureBox69
             // 
             this.pictureBox69.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox69.Image")));
-            this.pictureBox69.Location = new System.Drawing.Point(564, 377);
+            this.pictureBox69.Location = new System.Drawing.Point(524, 370);
             this.pictureBox69.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox69.Name = "pictureBox69";
             this.pictureBox69.Size = new System.Drawing.Size(48, 48);
@@ -997,7 +1012,7 @@
             // pictureBox70
             // 
             this.pictureBox70.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox70.Image")));
-            this.pictureBox70.Location = new System.Drawing.Point(516, 329);
+            this.pictureBox70.Location = new System.Drawing.Point(476, 322);
             this.pictureBox70.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox70.Name = "pictureBox70";
             this.pictureBox70.Size = new System.Drawing.Size(48, 48);
@@ -1008,7 +1023,7 @@
             // pictureBox71
             // 
             this.pictureBox71.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox71.Image")));
-            this.pictureBox71.Location = new System.Drawing.Point(372, 329);
+            this.pictureBox71.Location = new System.Drawing.Point(332, 322);
             this.pictureBox71.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox71.Name = "pictureBox71";
             this.pictureBox71.Size = new System.Drawing.Size(48, 48);
@@ -1019,7 +1034,7 @@
             // pictureBox72
             // 
             this.pictureBox72.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox72.Image")));
-            this.pictureBox72.Location = new System.Drawing.Point(372, 377);
+            this.pictureBox72.Location = new System.Drawing.Point(332, 370);
             this.pictureBox72.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox72.Name = "pictureBox72";
             this.pictureBox72.Size = new System.Drawing.Size(48, 48);
@@ -1030,7 +1045,7 @@
             // pictureBox73
             // 
             this.pictureBox73.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox73.Image")));
-            this.pictureBox73.Location = new System.Drawing.Point(420, 281);
+            this.pictureBox73.Location = new System.Drawing.Point(380, 274);
             this.pictureBox73.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox73.Name = "pictureBox73";
             this.pictureBox73.Size = new System.Drawing.Size(48, 48);
@@ -1041,7 +1056,7 @@
             // pictureBox74
             // 
             this.pictureBox74.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox74.Image")));
-            this.pictureBox74.Location = new System.Drawing.Point(420, 329);
+            this.pictureBox74.Location = new System.Drawing.Point(380, 322);
             this.pictureBox74.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox74.Name = "pictureBox74";
             this.pictureBox74.Size = new System.Drawing.Size(48, 48);
@@ -1052,7 +1067,7 @@
             // pictureBox75
             // 
             this.pictureBox75.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox75.Image")));
-            this.pictureBox75.Location = new System.Drawing.Point(324, 329);
+            this.pictureBox75.Location = new System.Drawing.Point(284, 322);
             this.pictureBox75.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox75.Name = "pictureBox75";
             this.pictureBox75.Size = new System.Drawing.Size(48, 48);
@@ -1063,7 +1078,7 @@
             // pictureBox76
             // 
             this.pictureBox76.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox76.Image")));
-            this.pictureBox76.Location = new System.Drawing.Point(420, 233);
+            this.pictureBox76.Location = new System.Drawing.Point(380, 226);
             this.pictureBox76.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox76.Name = "pictureBox76";
             this.pictureBox76.Size = new System.Drawing.Size(48, 48);
@@ -1074,7 +1089,7 @@
             // pictureBox77
             // 
             this.pictureBox77.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox77.Image")));
-            this.pictureBox77.Location = new System.Drawing.Point(372, 281);
+            this.pictureBox77.Location = new System.Drawing.Point(332, 274);
             this.pictureBox77.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox77.Name = "pictureBox77";
             this.pictureBox77.Size = new System.Drawing.Size(48, 48);
@@ -1085,7 +1100,7 @@
             // pictureBox78
             // 
             this.pictureBox78.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox78.Image")));
-            this.pictureBox78.Location = new System.Drawing.Point(324, 377);
+            this.pictureBox78.Location = new System.Drawing.Point(284, 370);
             this.pictureBox78.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox78.Name = "pictureBox78";
             this.pictureBox78.Size = new System.Drawing.Size(48, 48);
@@ -1096,7 +1111,7 @@
             // pictureBox79
             // 
             this.pictureBox79.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox79.Image")));
-            this.pictureBox79.Location = new System.Drawing.Point(324, 281);
+            this.pictureBox79.Location = new System.Drawing.Point(284, 274);
             this.pictureBox79.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox79.Name = "pictureBox79";
             this.pictureBox79.Size = new System.Drawing.Size(48, 48);
@@ -1107,7 +1122,7 @@
             // pictureBox80
             // 
             this.pictureBox80.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox80.Image")));
-            this.pictureBox80.Location = new System.Drawing.Point(324, 233);
+            this.pictureBox80.Location = new System.Drawing.Point(284, 226);
             this.pictureBox80.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox80.Name = "pictureBox80";
             this.pictureBox80.Size = new System.Drawing.Size(48, 48);
@@ -1118,7 +1133,7 @@
             // pictureBox81
             // 
             this.pictureBox81.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox81.Image")));
-            this.pictureBox81.Location = new System.Drawing.Point(372, 233);
+            this.pictureBox81.Location = new System.Drawing.Point(332, 226);
             this.pictureBox81.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox81.Name = "pictureBox81";
             this.pictureBox81.Size = new System.Drawing.Size(48, 48);
@@ -1129,7 +1144,7 @@
             // pictureBox82
             // 
             this.pictureBox82.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox82.Image")));
-            this.pictureBox82.Location = new System.Drawing.Point(228, 281);
+            this.pictureBox82.Location = new System.Drawing.Point(188, 274);
             this.pictureBox82.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox82.Name = "pictureBox82";
             this.pictureBox82.Size = new System.Drawing.Size(48, 48);
@@ -1140,7 +1155,7 @@
             // pictureBox83
             // 
             this.pictureBox83.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox83.Image")));
-            this.pictureBox83.Location = new System.Drawing.Point(228, 233);
+            this.pictureBox83.Location = new System.Drawing.Point(188, 226);
             this.pictureBox83.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox83.Name = "pictureBox83";
             this.pictureBox83.Size = new System.Drawing.Size(48, 48);
@@ -1151,7 +1166,7 @@
             // pictureBox84
             // 
             this.pictureBox84.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox84.Image")));
-            this.pictureBox84.Location = new System.Drawing.Point(276, 329);
+            this.pictureBox84.Location = new System.Drawing.Point(236, 322);
             this.pictureBox84.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox84.Name = "pictureBox84";
             this.pictureBox84.Size = new System.Drawing.Size(48, 48);
@@ -1162,7 +1177,7 @@
             // pictureBox85
             // 
             this.pictureBox85.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox85.Image")));
-            this.pictureBox85.Location = new System.Drawing.Point(276, 377);
+            this.pictureBox85.Location = new System.Drawing.Point(236, 370);
             this.pictureBox85.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox85.Name = "pictureBox85";
             this.pictureBox85.Size = new System.Drawing.Size(48, 48);
@@ -1173,7 +1188,7 @@
             // pictureBox86
             // 
             this.pictureBox86.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox86.Image")));
-            this.pictureBox86.Location = new System.Drawing.Point(228, 377);
+            this.pictureBox86.Location = new System.Drawing.Point(188, 370);
             this.pictureBox86.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox86.Name = "pictureBox86";
             this.pictureBox86.Size = new System.Drawing.Size(48, 48);
@@ -1184,7 +1199,7 @@
             // pictureBox87
             // 
             this.pictureBox87.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox87.Image")));
-            this.pictureBox87.Location = new System.Drawing.Point(180, 377);
+            this.pictureBox87.Location = new System.Drawing.Point(140, 370);
             this.pictureBox87.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox87.Name = "pictureBox87";
             this.pictureBox87.Size = new System.Drawing.Size(48, 48);
@@ -1195,7 +1210,7 @@
             // pictureBox88
             // 
             this.pictureBox88.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox88.Image")));
-            this.pictureBox88.Location = new System.Drawing.Point(180, 329);
+            this.pictureBox88.Location = new System.Drawing.Point(140, 322);
             this.pictureBox88.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox88.Name = "pictureBox88";
             this.pictureBox88.Size = new System.Drawing.Size(48, 48);
@@ -1206,7 +1221,7 @@
             // pictureBox89
             // 
             this.pictureBox89.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox89.Image")));
-            this.pictureBox89.Location = new System.Drawing.Point(228, 329);
+            this.pictureBox89.Location = new System.Drawing.Point(188, 322);
             this.pictureBox89.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox89.Name = "pictureBox89";
             this.pictureBox89.Size = new System.Drawing.Size(48, 48);
@@ -1219,7 +1234,7 @@
             this.redOrb1.BackColor = System.Drawing.Color.Transparent;
             this.redOrb1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("redOrb1.BackgroundImage")));
             this.redOrb1.Image = ((System.Drawing.Image)(resources.GetObject("redOrb1.Image")));
-            this.redOrb1.Location = new System.Drawing.Point(324, 233);
+            this.redOrb1.Location = new System.Drawing.Point(284, 226);
             this.redOrb1.Margin = new System.Windows.Forms.Padding(0);
             this.redOrb1.Name = "redOrb1";
             this.redOrb1.Size = new System.Drawing.Size(48, 48);
@@ -1232,7 +1247,7 @@
             this.redOrb2.BackColor = System.Drawing.Color.Transparent;
             this.redOrb2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("redOrb2.BackgroundImage")));
             this.redOrb2.Image = ((System.Drawing.Image)(resources.GetObject("redOrb2.Image")));
-            this.redOrb2.Location = new System.Drawing.Point(372, 233);
+            this.redOrb2.Location = new System.Drawing.Point(332, 226);
             this.redOrb2.Margin = new System.Windows.Forms.Padding(0);
             this.redOrb2.Name = "redOrb2";
             this.redOrb2.Size = new System.Drawing.Size(48, 48);
@@ -1245,7 +1260,7 @@
             this.redOrb3.BackColor = System.Drawing.Color.Transparent;
             this.redOrb3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("redOrb3.BackgroundImage")));
             this.redOrb3.Image = ((System.Drawing.Image)(resources.GetObject("redOrb3.Image")));
-            this.redOrb3.Location = new System.Drawing.Point(420, 233);
+            this.redOrb3.Location = new System.Drawing.Point(380, 226);
             this.redOrb3.Margin = new System.Windows.Forms.Padding(0);
             this.redOrb3.Name = "redOrb3";
             this.redOrb3.Size = new System.Drawing.Size(48, 48);
@@ -1258,7 +1273,7 @@
             this.redOrb4.BackColor = System.Drawing.Color.Transparent;
             this.redOrb4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("redOrb4.BackgroundImage")));
             this.redOrb4.Image = ((System.Drawing.Image)(resources.GetObject("redOrb4.Image")));
-            this.redOrb4.Location = new System.Drawing.Point(420, 281);
+            this.redOrb4.Location = new System.Drawing.Point(380, 274);
             this.redOrb4.Margin = new System.Windows.Forms.Padding(0);
             this.redOrb4.Name = "redOrb4";
             this.redOrb4.Size = new System.Drawing.Size(48, 48);
@@ -1271,7 +1286,7 @@
             this.redOrb5.BackColor = System.Drawing.Color.Transparent;
             this.redOrb5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("redOrb5.BackgroundImage")));
             this.redOrb5.Image = ((System.Drawing.Image)(resources.GetObject("redOrb5.Image")));
-            this.redOrb5.Location = new System.Drawing.Point(372, 281);
+            this.redOrb5.Location = new System.Drawing.Point(332, 274);
             this.redOrb5.Margin = new System.Windows.Forms.Padding(0);
             this.redOrb5.Name = "redOrb5";
             this.redOrb5.Size = new System.Drawing.Size(48, 48);
@@ -1284,7 +1299,7 @@
             this.redOrb6.BackColor = System.Drawing.Color.Transparent;
             this.redOrb6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("redOrb6.BackgroundImage")));
             this.redOrb6.Image = ((System.Drawing.Image)(resources.GetObject("redOrb6.Image")));
-            this.redOrb6.Location = new System.Drawing.Point(324, 281);
+            this.redOrb6.Location = new System.Drawing.Point(284, 274);
             this.redOrb6.Margin = new System.Windows.Forms.Padding(0);
             this.redOrb6.Name = "redOrb6";
             this.redOrb6.Size = new System.Drawing.Size(48, 48);
@@ -1295,7 +1310,7 @@
             // box6
             // 
             this.box6.Image = ((System.Drawing.Image)(resources.GetObject("box6.Image")));
-            this.box6.Location = new System.Drawing.Point(228, 329);
+            this.box6.Location = new System.Drawing.Point(188, 322);
             this.box6.Margin = new System.Windows.Forms.Padding(0);
             this.box6.Name = "box6";
             this.box6.Size = new System.Drawing.Size(48, 48);
@@ -1306,7 +1321,7 @@
             // box3
             // 
             this.box3.Image = ((System.Drawing.Image)(resources.GetObject("box3.Image")));
-            this.box3.Location = new System.Drawing.Point(516, 185);
+            this.box3.Location = new System.Drawing.Point(476, 178);
             this.box3.Margin = new System.Windows.Forms.Padding(0);
             this.box3.Name = "box3";
             this.box3.Size = new System.Drawing.Size(48, 48);
@@ -1317,7 +1332,7 @@
             // box1
             // 
             this.box1.Image = ((System.Drawing.Image)(resources.GetObject("box1.Image")));
-            this.box1.Location = new System.Drawing.Point(228, 185);
+            this.box1.Location = new System.Drawing.Point(188, 178);
             this.box1.Margin = new System.Windows.Forms.Padding(0);
             this.box1.Name = "box1";
             this.box1.Size = new System.Drawing.Size(48, 48);
@@ -1328,7 +1343,7 @@
             // box2
             // 
             this.box2.Image = ((System.Drawing.Image)(resources.GetObject("box2.Image")));
-            this.box2.Location = new System.Drawing.Point(372, 137);
+            this.box2.Location = new System.Drawing.Point(332, 130);
             this.box2.Margin = new System.Windows.Forms.Padding(0);
             this.box2.Name = "box2";
             this.box2.Size = new System.Drawing.Size(48, 48);
@@ -1339,7 +1354,7 @@
             // box5
             // 
             this.box5.Image = ((System.Drawing.Image)(resources.GetObject("box5.Image")));
-            this.box5.Location = new System.Drawing.Point(372, 329);
+            this.box5.Location = new System.Drawing.Point(332, 322);
             this.box5.Margin = new System.Windows.Forms.Padding(0);
             this.box5.Name = "box5";
             this.box5.Size = new System.Drawing.Size(48, 48);
@@ -1350,7 +1365,7 @@
             // box4
             // 
             this.box4.Image = ((System.Drawing.Image)(resources.GetObject("box4.Image")));
-            this.box4.Location = new System.Drawing.Point(516, 329);
+            this.box4.Location = new System.Drawing.Point(476, 322);
             this.box4.Margin = new System.Windows.Forms.Padding(0);
             this.box4.Name = "box4";
             this.box4.Size = new System.Drawing.Size(48, 48);
@@ -1363,7 +1378,7 @@
             this.wizard.BackColor = System.Drawing.Color.Transparent;
             this.wizard.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("wizard.BackgroundImage")));
             this.wizard.Image = ((System.Drawing.Image)(resources.GetObject("wizard.Image")));
-            this.wizard.Location = new System.Drawing.Point(372, 377);
+            this.wizard.Location = new System.Drawing.Point(332, 370);
             this.wizard.Margin = new System.Windows.Forms.Padding(0);
             this.wizard.Name = "wizard";
             this.wizard.Size = new System.Drawing.Size(48, 48);
@@ -1371,12 +1386,132 @@
             this.wizard.TabIndex = 101;
             this.wizard.TabStop = false;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Location = new System.Drawing.Point(681, 274);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(80, 17);
+            this.label5.TabIndex = 111;
+            this.label5.Text = "Move LEFT";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Location = new System.Drawing.Point(681, 323);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(90, 17);
+            this.label4.TabIndex = 110;
+            this.label4.Text = "Move DOWN";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Location = new System.Drawing.Point(681, 376);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(89, 17);
+            this.label3.TabIndex = 109;
+            this.label3.Text = "Move RIGHT";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Location = new System.Drawing.Point(681, 422);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(92, 17);
+            this.label2.TabIndex = 108;
+            this.label2.Text = "Restart Level";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Location = new System.Drawing.Point(681, 223);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(65, 17);
+            this.label1.TabIndex = 107;
+            this.label1.Text = "Move UP";
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(630, 358);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(0);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 106;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(630, 308);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(0);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 105;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(630, 408);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(0);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 104;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(630, 208);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 103;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(630, 258);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 102;
+            this.pictureBox1.TabStop = false;
+            // 
             // Level5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(782, 501);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.wizard);
             this.Controls.Add(this.box4);
             this.Controls.Add(this.box5);
@@ -1483,7 +1618,8 @@
             this.MaximizeBox = false;
             this.Name = "Level5";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Level5";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Level5_FormClosing);
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Level5_KeyPress);
             ((System.ComponentModel.ISupportInitialize)(this.brick1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.brick2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.brick4)).EndInit();
@@ -1586,7 +1722,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.box5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.box4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.wizard)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -1694,5 +1836,15 @@
         private System.Windows.Forms.PictureBox box5;
         private System.Windows.Forms.PictureBox box4;
         private System.Windows.Forms.PictureBox wizard;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

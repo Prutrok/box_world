@@ -1,10 +1,14 @@
 ﻿using System.Collections.Generic;
+using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace BoxWorld
 {
+    [Serializable]
     public partial class Level2 : Form
     {
+
         List<PictureBox> boxes = new List<PictureBox>();
         List<PictureBox> bricks = new List<PictureBox>();
         List<PictureBox> redOrbs = new List<PictureBox>();
@@ -12,6 +16,8 @@ namespace BoxWorld
         int points = 0;
         VictoryPopUp victoryPopUp;
         List<PictureBox> scoredRedOrbs = new List<PictureBox>();
+
+        bool didWin = false;
 
         public Level2()
         {
@@ -68,9 +74,32 @@ namespace BoxWorld
             bricks.Add(brick38);
             bricks.Add(brick39);
 
-            victoryPopUp = new VictoryPopUp(this, new Level3());
+            
+
         }
-        
+
+        public void InitState(FormState formState)
+        {
+            Helper.updatePictureBoxLocation(boxes, formState.boxes);
+
+            wizard.Location = new Point(formState.wizardLocation.X, formState.wizardLocation.Y);
+
+            scoredRedOrbs = Helper.extractPictureBoxesFromNames(formState.scoredRedOrbNames, redOrbs);
+            points = scoredRedOrbs.Count;
+
+            for (int i = 0; i < scoredRedOrbs.Count; i++)
+            {
+                PictureBox redOrb = scoredRedOrbs[i];
+
+                PictureBox box = Helper.getPictureBoxByLocation(boxes, redOrb.Location);
+
+                if (box != null)
+                {
+                    box.Image = Helper.getBitmapAssetByName("BoxWorld.Assets.crate_green.jpg");
+                }
+            }
+        }
+
         private void Level2_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == 'W' || e.KeyChar == 'w')
@@ -91,6 +120,32 @@ namespace BoxWorld
             }
 
             points = scoredRedOrbs.Count;
+            Level2_victoryPopUp();
+        }
+
+        private void Level2_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (!Helper.popUp.isExitCalledFromHere && !didWin)
+            {
+                e.Cancel = true;
+                Helper.popUp.FormState.level = "Level2";
+                Helper.popUp.FormState.boxes = Helper.mapToPictureBoxLocation(boxes);
+                Helper.popUp.FormState.wizardLocation.X = wizard.Location.X;
+                Helper.popUp.FormState.wizardLocation.Y = wizard.Location.Y;
+                Helper.popUp.FormState.scoredRedOrbNames = Helper.extractNamesFromPictureBoxes(scoredRedOrbs);
+                Helper.popUp.exitLabel.Text = "Are you sure you want to exit BoxWorld? (Game will be saved)";
+                Helper.popUp.ShowDialog();
+            }
+        }
+
+        private void Level2_victoryPopUp()
+        {
+            if (points == 3)
+            {
+                didWin = true;
+                victoryPopUp = new VictoryPopUp(this, new Level3());
+                victoryPopUp.ShowDialog();
+            }
         }
 
     }

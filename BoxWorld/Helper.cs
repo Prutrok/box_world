@@ -72,7 +72,7 @@ namespace BoxWorld
                 PictureBox pictureBox = pictureBoxes.ElementAt(i);
                 PictureBoxLocation pictureBoxLocation = new PictureBoxLocation();
 
-                pictureBoxLocation.pictureBoxName = pictureBoxes.ElementAt(i).Name;
+                pictureBoxLocation.pictureBoxName = pictureBox.Name;
                 pictureBoxLocation.X = pictureBox.Location.X;
                 pictureBoxLocation.Y = pictureBox.Location.Y;
 
@@ -188,8 +188,8 @@ namespace BoxWorld
 
                                 box.Image = Helper.getBitmapAssetByName("BoxWorld.Assets.crate_green.jpg");
                             }
-                            else
-                            {
+                            
+                            
                                 bool willExitRedOrb = Helper.willHitPictureBox(redOrbs, boxLocation);
 
                                 if (willExitRedOrb)
@@ -213,10 +213,15 @@ namespace BoxWorld
                                     {
                                         scoredRedOrbs.RemoveAt(index);
 
-                                        box.Image = Helper.getBitmapAssetByName("BoxWorld.Assets.wooden_crate2.png");
+                                        if (!hitRedOrb)
+                                        {
+                                            box.Image = Helper.getBitmapAssetByName("BoxWorld.Assets.wooden_crate2.png");
+                                        }
+
+                                        
                                     }
                                 }
-                            }
+                            
 
                             wizard.Location = shouldMoveHere;
                             box.Location = shouldBoxMoveHere;

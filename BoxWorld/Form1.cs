@@ -20,7 +20,7 @@ namespace BoxWorld
         public Form1()
         {
             InitializeComponent();
-
+            
             if (File.Exists("Save.bin"))
             {
                 button2.Enabled = true;
@@ -60,6 +60,35 @@ namespace BoxWorld
                         level1.InitState(formState);
                         level1.Show();
                         break;
+
+                    case "Level2":
+                        Level2 level2 = new Level2();
+
+                        level2.InitState(formState);
+                        level2.Show();
+                        break;
+
+                    case "Level3":
+                        Level3 level3 = new Level3();
+
+                        level3.InitState(formState);
+                        level3.Show();
+                        break;
+
+                    case "Level4":
+                        Level4 level4 = new Level4();
+
+                        level4.InitState(formState);
+                        level4.Show();
+                        break;
+
+                    case "Level5":
+                        Level5 level5 = new Level5();
+
+                        level5.InitState(formState);
+                        level5.Show();
+                        break;
+                   
                 }
                 
                 this.Hide();
@@ -81,6 +110,7 @@ namespace BoxWorld
             if (!Helper.popUp.isExitCalledFromHere)
             {
                 e.Cancel = true;
+                Helper.popUp.exitLabel.Text = "Are you sure you want to exit BoxWorld?";
                 Helper.popUp.ShowDialog();
             }
         }
