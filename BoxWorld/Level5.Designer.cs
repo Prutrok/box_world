@@ -252,6 +252,7 @@
             // 
             // brick1
             // 
+            this.brick1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick1.Image = ((System.Drawing.Image)(resources.GetObject("brick1.Image")));
             this.brick1.Location = new System.Drawing.Point(140, 34);
             this.brick1.Margin = new System.Windows.Forms.Padding(0);
@@ -263,6 +264,7 @@
             // 
             // brick2
             // 
+            this.brick2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick2.Image = ((System.Drawing.Image)(resources.GetObject("brick2.Image")));
             this.brick2.Location = new System.Drawing.Point(188, 34);
             this.brick2.Margin = new System.Windows.Forms.Padding(0);
@@ -274,6 +276,7 @@
             // 
             // brick4
             // 
+            this.brick4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick4.Image = ((System.Drawing.Image)(resources.GetObject("brick4.Image")));
             this.brick4.Location = new System.Drawing.Point(284, 34);
             this.brick4.Margin = new System.Windows.Forms.Padding(0);
@@ -285,6 +288,7 @@
             // 
             // brick3
             // 
+            this.brick3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick3.Image = ((System.Drawing.Image)(resources.GetObject("brick3.Image")));
             this.brick3.Location = new System.Drawing.Point(236, 34);
             this.brick3.Margin = new System.Windows.Forms.Padding(0);
@@ -296,6 +300,7 @@
             // 
             // brick7
             // 
+            this.brick7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick7.Image = ((System.Drawing.Image)(resources.GetObject("brick7.Image")));
             this.brick7.Location = new System.Drawing.Point(332, 34);
             this.brick7.Margin = new System.Windows.Forms.Padding(0);
@@ -307,6 +312,7 @@
             // 
             // brick8
             // 
+            this.brick8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick8.Image = ((System.Drawing.Image)(resources.GetObject("brick8.Image")));
             this.brick8.Location = new System.Drawing.Point(380, 34);
             this.brick8.Margin = new System.Windows.Forms.Padding(0);
@@ -318,6 +324,7 @@
             // 
             // brick9
             // 
+            this.brick9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick9.Image = ((System.Drawing.Image)(resources.GetObject("brick9.Image")));
             this.brick9.Location = new System.Drawing.Point(428, 34);
             this.brick9.Margin = new System.Windows.Forms.Padding(0);
@@ -329,6 +336,7 @@
             // 
             // brick10
             // 
+            this.brick10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick10.Image = ((System.Drawing.Image)(resources.GetObject("brick10.Image")));
             this.brick10.Location = new System.Drawing.Point(476, 34);
             this.brick10.Margin = new System.Windows.Forms.Padding(0);
@@ -340,6 +348,7 @@
             // 
             // brick6
             // 
+            this.brick6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick6.Image = ((System.Drawing.Image)(resources.GetObject("brick6.Image")));
             this.brick6.Location = new System.Drawing.Point(332, 82);
             this.brick6.Margin = new System.Windows.Forms.Padding(0);
@@ -351,6 +360,7 @@
             // 
             // brick11
             // 
+            this.brick11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick11.Image = ((System.Drawing.Image)(resources.GetObject("brick11.Image")));
             this.brick11.Location = new System.Drawing.Point(524, 34);
             this.brick11.Margin = new System.Windows.Forms.Padding(0);
@@ -362,6 +372,7 @@
             // 
             // brick5
             // 
+            this.brick5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick5.Image = ((System.Drawing.Image)(resources.GetObject("brick5.Image")));
             this.brick5.Location = new System.Drawing.Point(284, 82);
             this.brick5.Margin = new System.Windows.Forms.Padding(0);
@@ -373,6 +384,7 @@
             // 
             // brick12
             // 
+            this.brick12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick12.Image = ((System.Drawing.Image)(resources.GetObject("brick12.Image")));
             this.brick12.Location = new System.Drawing.Point(524, 82);
             this.brick12.Margin = new System.Windows.Forms.Padding(0);
@@ -384,6 +396,7 @@
             // 
             // brick39
             // 
+            this.brick39.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick39.Image = ((System.Drawing.Image)(resources.GetObject("brick39.Image")));
             this.brick39.Location = new System.Drawing.Point(140, 82);
             this.brick39.Margin = new System.Windows.Forms.Padding(0);
@@ -395,6 +408,7 @@
             // 
             // brick13
             // 
+            this.brick13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick13.Image = ((System.Drawing.Image)(resources.GetObject("brick13.Image")));
             this.brick13.Location = new System.Drawing.Point(524, 130);
             this.brick13.Margin = new System.Windows.Forms.Padding(0);
@@ -406,6 +420,7 @@
             // 
             // brick14
             // 
+            this.brick14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick14.Image = ((System.Drawing.Image)(resources.GetObject("brick14.Image")));
             this.brick14.Location = new System.Drawing.Point(524, 178);
             this.brick14.Margin = new System.Windows.Forms.Padding(0);
@@ -417,6 +432,7 @@
             // 
             // brick41
             // 
+            this.brick41.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick41.Image = ((System.Drawing.Image)(resources.GetObject("brick41.Image")));
             this.brick41.Location = new System.Drawing.Point(332, 178);
             this.brick41.Margin = new System.Windows.Forms.Padding(0);
@@ -428,6 +444,7 @@
             // 
             // brick15
             // 
+            this.brick15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick15.Image = ((System.Drawing.Image)(resources.GetObject("brick15.Image")));
             this.brick15.Location = new System.Drawing.Point(524, 226);
             this.brick15.Margin = new System.Windows.Forms.Padding(0);
@@ -439,6 +456,7 @@
             // 
             // brick40
             // 
+            this.brick40.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick40.Image = ((System.Drawing.Image)(resources.GetObject("brick40.Image")));
             this.brick40.Location = new System.Drawing.Point(284, 178);
             this.brick40.Margin = new System.Windows.Forms.Padding(0);
@@ -450,6 +468,7 @@
             // 
             // brick42
             // 
+            this.brick42.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick42.Image = ((System.Drawing.Image)(resources.GetObject("brick42.Image")));
             this.brick42.Location = new System.Drawing.Point(380, 178);
             this.brick42.Margin = new System.Windows.Forms.Padding(0);
@@ -461,6 +480,7 @@
             // 
             // brick44
             // 
+            this.brick44.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick44.Image = ((System.Drawing.Image)(resources.GetObject("brick44.Image")));
             this.brick44.Location = new System.Drawing.Point(428, 274);
             this.brick44.Margin = new System.Windows.Forms.Padding(0);
@@ -472,6 +492,7 @@
             // 
             // brick43
             // 
+            this.brick43.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick43.Image = ((System.Drawing.Image)(resources.GetObject("brick43.Image")));
             this.brick43.Location = new System.Drawing.Point(428, 226);
             this.brick43.Margin = new System.Windows.Forms.Padding(0);
@@ -483,6 +504,7 @@
             // 
             // brick45
             // 
+            this.brick45.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick45.Image = ((System.Drawing.Image)(resources.GetObject("brick45.Image")));
             this.brick45.Location = new System.Drawing.Point(236, 274);
             this.brick45.Margin = new System.Windows.Forms.Padding(0);
@@ -494,6 +516,7 @@
             // 
             // brick46
             // 
+            this.brick46.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick46.Image = ((System.Drawing.Image)(resources.GetObject("brick46.Image")));
             this.brick46.Location = new System.Drawing.Point(236, 226);
             this.brick46.Margin = new System.Windows.Forms.Padding(0);
@@ -505,6 +528,7 @@
             // 
             // brick16
             // 
+            this.brick16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick16.Image = ((System.Drawing.Image)(resources.GetObject("brick16.Image")));
             this.brick16.Location = new System.Drawing.Point(524, 274);
             this.brick16.Margin = new System.Windows.Forms.Padding(0);
@@ -516,6 +540,7 @@
             // 
             // brick26
             // 
+            this.brick26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick26.Image = ((System.Drawing.Image)(resources.GetObject("brick26.Image")));
             this.brick26.Location = new System.Drawing.Point(332, 418);
             this.brick26.Margin = new System.Windows.Forms.Padding(0);
@@ -527,6 +552,7 @@
             // 
             // brick25
             // 
+            this.brick25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick25.Image = ((System.Drawing.Image)(resources.GetObject("brick25.Image")));
             this.brick25.Location = new System.Drawing.Point(380, 370);
             this.brick25.Margin = new System.Windows.Forms.Padding(0);
@@ -538,6 +564,7 @@
             // 
             // brick24
             // 
+            this.brick24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick24.Image = ((System.Drawing.Image)(resources.GetObject("brick24.Image")));
             this.brick24.Location = new System.Drawing.Point(380, 418);
             this.brick24.Margin = new System.Windows.Forms.Padding(0);
@@ -549,6 +576,7 @@
             // 
             // brick23
             // 
+            this.brick23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick23.Image = ((System.Drawing.Image)(resources.GetObject("brick23.Image")));
             this.brick23.Location = new System.Drawing.Point(428, 418);
             this.brick23.Margin = new System.Windows.Forms.Padding(0);
@@ -560,6 +588,7 @@
             // 
             // brick22
             // 
+            this.brick22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick22.Image = ((System.Drawing.Image)(resources.GetObject("brick22.Image")));
             this.brick22.Location = new System.Drawing.Point(476, 418);
             this.brick22.Margin = new System.Windows.Forms.Padding(0);
@@ -571,6 +600,7 @@
             // 
             // brick21
             // 
+            this.brick21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick21.Image = ((System.Drawing.Image)(resources.GetObject("brick21.Image")));
             this.brick21.Location = new System.Drawing.Point(524, 418);
             this.brick21.Margin = new System.Windows.Forms.Padding(0);
@@ -582,6 +612,7 @@
             // 
             // brick20
             // 
+            this.brick20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick20.Image = ((System.Drawing.Image)(resources.GetObject("brick20.Image")));
             this.brick20.Location = new System.Drawing.Point(572, 418);
             this.brick20.Margin = new System.Windows.Forms.Padding(0);
@@ -593,6 +624,7 @@
             // 
             // brick19
             // 
+            this.brick19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick19.Image = ((System.Drawing.Image)(resources.GetObject("brick19.Image")));
             this.brick19.Location = new System.Drawing.Point(572, 370);
             this.brick19.Margin = new System.Windows.Forms.Padding(0);
@@ -604,6 +636,7 @@
             // 
             // brick18
             // 
+            this.brick18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick18.Image = ((System.Drawing.Image)(resources.GetObject("brick18.Image")));
             this.brick18.Location = new System.Drawing.Point(572, 322);
             this.brick18.Margin = new System.Windows.Forms.Padding(0);
@@ -615,6 +648,7 @@
             // 
             // brick17
             // 
+            this.brick17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick17.Image = ((System.Drawing.Image)(resources.GetObject("brick17.Image")));
             this.brick17.Location = new System.Drawing.Point(572, 274);
             this.brick17.Margin = new System.Windows.Forms.Padding(0);
@@ -626,6 +660,7 @@
             // 
             // brick31
             // 
+            this.brick31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick31.Image = ((System.Drawing.Image)(resources.GetObject("brick31.Image")));
             this.brick31.Location = new System.Drawing.Point(92, 418);
             this.brick31.Margin = new System.Windows.Forms.Padding(0);
@@ -637,6 +672,7 @@
             // 
             // brick30
             // 
+            this.brick30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick30.Image = ((System.Drawing.Image)(resources.GetObject("brick30.Image")));
             this.brick30.Location = new System.Drawing.Point(140, 418);
             this.brick30.Margin = new System.Windows.Forms.Padding(0);
@@ -648,6 +684,7 @@
             // 
             // brick29
             // 
+            this.brick29.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick29.Image = ((System.Drawing.Image)(resources.GetObject("brick29.Image")));
             this.brick29.Location = new System.Drawing.Point(188, 418);
             this.brick29.Margin = new System.Windows.Forms.Padding(0);
@@ -659,6 +696,7 @@
             // 
             // brick28
             // 
+            this.brick28.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick28.Image = ((System.Drawing.Image)(resources.GetObject("brick28.Image")));
             this.brick28.Location = new System.Drawing.Point(236, 418);
             this.brick28.Margin = new System.Windows.Forms.Padding(0);
@@ -670,6 +708,7 @@
             // 
             // brick27
             // 
+            this.brick27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick27.Image = ((System.Drawing.Image)(resources.GetObject("brick27.Image")));
             this.brick27.Location = new System.Drawing.Point(284, 418);
             this.brick27.Margin = new System.Windows.Forms.Padding(0);
@@ -681,6 +720,7 @@
             // 
             // brick36
             // 
+            this.brick36.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick36.Image = ((System.Drawing.Image)(resources.GetObject("brick36.Image")));
             this.brick36.Location = new System.Drawing.Point(140, 226);
             this.brick36.Margin = new System.Windows.Forms.Padding(0);
@@ -692,6 +732,7 @@
             // 
             // brick32
             // 
+            this.brick32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick32.Image = ((System.Drawing.Image)(resources.GetObject("brick32.Image")));
             this.brick32.Location = new System.Drawing.Point(92, 370);
             this.brick32.Margin = new System.Windows.Forms.Padding(0);
@@ -703,6 +744,7 @@
             // 
             // brick35
             // 
+            this.brick35.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick35.Image = ((System.Drawing.Image)(resources.GetObject("brick35.Image")));
             this.brick35.Location = new System.Drawing.Point(140, 274);
             this.brick35.Margin = new System.Windows.Forms.Padding(0);
@@ -714,6 +756,7 @@
             // 
             // brick34
             // 
+            this.brick34.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick34.Image = ((System.Drawing.Image)(resources.GetObject("brick34.Image")));
             this.brick34.Location = new System.Drawing.Point(92, 274);
             this.brick34.Margin = new System.Windows.Forms.Padding(0);
@@ -725,6 +768,7 @@
             // 
             // brick33
             // 
+            this.brick33.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick33.Image = ((System.Drawing.Image)(resources.GetObject("brick33.Image")));
             this.brick33.Location = new System.Drawing.Point(92, 322);
             this.brick33.Margin = new System.Windows.Forms.Padding(0);
@@ -736,6 +780,7 @@
             // 
             // brick38
             // 
+            this.brick38.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick38.Image = ((System.Drawing.Image)(resources.GetObject("brick38.Image")));
             this.brick38.Location = new System.Drawing.Point(140, 130);
             this.brick38.Margin = new System.Windows.Forms.Padding(0);
@@ -747,6 +792,7 @@
             // 
             // brick37
             // 
+            this.brick37.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.brick37.Image = ((System.Drawing.Image)(resources.GetObject("brick37.Image")));
             this.brick37.Location = new System.Drawing.Point(140, 178);
             this.brick37.Margin = new System.Windows.Forms.Padding(0);
@@ -758,6 +804,7 @@
             // 
             // pictureBox45
             // 
+            this.pictureBox45.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox45.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox45.Image")));
             this.pictureBox45.Location = new System.Drawing.Point(188, 82);
             this.pictureBox45.Margin = new System.Windows.Forms.Padding(0);
@@ -769,6 +816,7 @@
             // 
             // pictureBox48
             // 
+            this.pictureBox48.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox48.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox48.Image")));
             this.pictureBox48.Location = new System.Drawing.Point(236, 130);
             this.pictureBox48.Margin = new System.Windows.Forms.Padding(0);
@@ -780,6 +828,7 @@
             // 
             // pictureBox49
             // 
+            this.pictureBox49.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox49.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox49.Image")));
             this.pictureBox49.Location = new System.Drawing.Point(188, 178);
             this.pictureBox49.Margin = new System.Windows.Forms.Padding(0);
@@ -791,6 +840,7 @@
             // 
             // pictureBox50
             // 
+            this.pictureBox50.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox50.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox50.Image")));
             this.pictureBox50.Location = new System.Drawing.Point(236, 178);
             this.pictureBox50.Margin = new System.Windows.Forms.Padding(0);
@@ -802,6 +852,7 @@
             // 
             // pictureBox51
             // 
+            this.pictureBox51.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox51.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox51.Image")));
             this.pictureBox51.Location = new System.Drawing.Point(332, 130);
             this.pictureBox51.Margin = new System.Windows.Forms.Padding(0);
@@ -813,6 +864,7 @@
             // 
             // pictureBox52
             // 
+            this.pictureBox52.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox52.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox52.Image")));
             this.pictureBox52.Location = new System.Drawing.Point(284, 130);
             this.pictureBox52.Margin = new System.Windows.Forms.Padding(0);
@@ -824,6 +876,7 @@
             // 
             // pictureBox53
             // 
+            this.pictureBox53.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox53.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox53.Image")));
             this.pictureBox53.Location = new System.Drawing.Point(380, 130);
             this.pictureBox53.Margin = new System.Windows.Forms.Padding(0);
@@ -835,6 +888,7 @@
             // 
             // pictureBox54
             // 
+            this.pictureBox54.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox54.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox54.Image")));
             this.pictureBox54.Location = new System.Drawing.Point(380, 82);
             this.pictureBox54.Margin = new System.Windows.Forms.Padding(0);
@@ -846,6 +900,7 @@
             // 
             // pictureBox55
             // 
+            this.pictureBox55.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox55.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox55.Image")));
             this.pictureBox55.Location = new System.Drawing.Point(428, 82);
             this.pictureBox55.Margin = new System.Windows.Forms.Padding(0);
@@ -857,6 +912,7 @@
             // 
             // pictureBox56
             // 
+            this.pictureBox56.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox56.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox56.Image")));
             this.pictureBox56.Location = new System.Drawing.Point(428, 130);
             this.pictureBox56.Margin = new System.Windows.Forms.Padding(0);
@@ -868,6 +924,7 @@
             // 
             // pictureBox57
             // 
+            this.pictureBox57.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox57.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox57.Image")));
             this.pictureBox57.Location = new System.Drawing.Point(476, 82);
             this.pictureBox57.Margin = new System.Windows.Forms.Padding(0);
@@ -879,6 +936,7 @@
             // 
             // pictureBox58
             // 
+            this.pictureBox58.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox58.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox58.Image")));
             this.pictureBox58.Location = new System.Drawing.Point(476, 130);
             this.pictureBox58.Margin = new System.Windows.Forms.Padding(0);
@@ -890,6 +948,7 @@
             // 
             // pictureBox59
             // 
+            this.pictureBox59.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox59.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox59.Image")));
             this.pictureBox59.Location = new System.Drawing.Point(428, 178);
             this.pictureBox59.Margin = new System.Windows.Forms.Padding(0);
@@ -901,6 +960,7 @@
             // 
             // pictureBox60
             // 
+            this.pictureBox60.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox60.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox60.Image")));
             this.pictureBox60.Location = new System.Drawing.Point(476, 178);
             this.pictureBox60.Margin = new System.Windows.Forms.Padding(0);
@@ -912,6 +972,7 @@
             // 
             // pictureBox61
             // 
+            this.pictureBox61.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox61.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox61.Image")));
             this.pictureBox61.Location = new System.Drawing.Point(476, 226);
             this.pictureBox61.Margin = new System.Windows.Forms.Padding(0);
@@ -923,6 +984,7 @@
             // 
             // pictureBox62
             // 
+            this.pictureBox62.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox62.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox62.Image")));
             this.pictureBox62.Location = new System.Drawing.Point(188, 130);
             this.pictureBox62.Margin = new System.Windows.Forms.Padding(0);
@@ -934,6 +996,7 @@
             // 
             // pictureBox63
             // 
+            this.pictureBox63.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox63.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox63.Image")));
             this.pictureBox63.Location = new System.Drawing.Point(236, 82);
             this.pictureBox63.Margin = new System.Windows.Forms.Padding(0);
@@ -945,6 +1008,7 @@
             // 
             // pictureBox64
             // 
+            this.pictureBox64.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox64.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox64.Image")));
             this.pictureBox64.Location = new System.Drawing.Point(524, 322);
             this.pictureBox64.Margin = new System.Windows.Forms.Padding(0);
@@ -956,6 +1020,7 @@
             // 
             // pictureBox65
             // 
+            this.pictureBox65.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox65.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox65.Image")));
             this.pictureBox65.Location = new System.Drawing.Point(476, 274);
             this.pictureBox65.Margin = new System.Windows.Forms.Padding(0);
@@ -967,6 +1032,7 @@
             // 
             // pictureBox66
             // 
+            this.pictureBox66.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox66.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox66.Image")));
             this.pictureBox66.Location = new System.Drawing.Point(428, 322);
             this.pictureBox66.Margin = new System.Windows.Forms.Padding(0);
@@ -978,6 +1044,7 @@
             // 
             // pictureBox67
             // 
+            this.pictureBox67.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox67.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox67.Image")));
             this.pictureBox67.Location = new System.Drawing.Point(428, 370);
             this.pictureBox67.Margin = new System.Windows.Forms.Padding(0);
@@ -989,6 +1056,7 @@
             // 
             // pictureBox68
             // 
+            this.pictureBox68.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox68.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox68.Image")));
             this.pictureBox68.Location = new System.Drawing.Point(476, 370);
             this.pictureBox68.Margin = new System.Windows.Forms.Padding(0);
@@ -1000,6 +1068,7 @@
             // 
             // pictureBox69
             // 
+            this.pictureBox69.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox69.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox69.Image")));
             this.pictureBox69.Location = new System.Drawing.Point(524, 370);
             this.pictureBox69.Margin = new System.Windows.Forms.Padding(0);
@@ -1011,6 +1080,7 @@
             // 
             // pictureBox70
             // 
+            this.pictureBox70.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox70.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox70.Image")));
             this.pictureBox70.Location = new System.Drawing.Point(476, 322);
             this.pictureBox70.Margin = new System.Windows.Forms.Padding(0);
@@ -1022,6 +1092,7 @@
             // 
             // pictureBox71
             // 
+            this.pictureBox71.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox71.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox71.Image")));
             this.pictureBox71.Location = new System.Drawing.Point(332, 322);
             this.pictureBox71.Margin = new System.Windows.Forms.Padding(0);
@@ -1033,6 +1104,7 @@
             // 
             // pictureBox72
             // 
+            this.pictureBox72.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox72.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox72.Image")));
             this.pictureBox72.Location = new System.Drawing.Point(332, 370);
             this.pictureBox72.Margin = new System.Windows.Forms.Padding(0);
@@ -1044,6 +1116,7 @@
             // 
             // pictureBox73
             // 
+            this.pictureBox73.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox73.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox73.Image")));
             this.pictureBox73.Location = new System.Drawing.Point(380, 274);
             this.pictureBox73.Margin = new System.Windows.Forms.Padding(0);
@@ -1055,6 +1128,7 @@
             // 
             // pictureBox74
             // 
+            this.pictureBox74.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox74.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox74.Image")));
             this.pictureBox74.Location = new System.Drawing.Point(380, 322);
             this.pictureBox74.Margin = new System.Windows.Forms.Padding(0);
@@ -1066,6 +1140,7 @@
             // 
             // pictureBox75
             // 
+            this.pictureBox75.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox75.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox75.Image")));
             this.pictureBox75.Location = new System.Drawing.Point(284, 322);
             this.pictureBox75.Margin = new System.Windows.Forms.Padding(0);
@@ -1077,6 +1152,7 @@
             // 
             // pictureBox76
             // 
+            this.pictureBox76.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox76.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox76.Image")));
             this.pictureBox76.Location = new System.Drawing.Point(380, 226);
             this.pictureBox76.Margin = new System.Windows.Forms.Padding(0);
@@ -1088,6 +1164,7 @@
             // 
             // pictureBox77
             // 
+            this.pictureBox77.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox77.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox77.Image")));
             this.pictureBox77.Location = new System.Drawing.Point(332, 274);
             this.pictureBox77.Margin = new System.Windows.Forms.Padding(0);
@@ -1099,6 +1176,7 @@
             // 
             // pictureBox78
             // 
+            this.pictureBox78.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox78.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox78.Image")));
             this.pictureBox78.Location = new System.Drawing.Point(284, 370);
             this.pictureBox78.Margin = new System.Windows.Forms.Padding(0);
@@ -1110,6 +1188,7 @@
             // 
             // pictureBox79
             // 
+            this.pictureBox79.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox79.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox79.Image")));
             this.pictureBox79.Location = new System.Drawing.Point(284, 274);
             this.pictureBox79.Margin = new System.Windows.Forms.Padding(0);
@@ -1121,6 +1200,7 @@
             // 
             // pictureBox80
             // 
+            this.pictureBox80.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox80.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox80.Image")));
             this.pictureBox80.Location = new System.Drawing.Point(284, 226);
             this.pictureBox80.Margin = new System.Windows.Forms.Padding(0);
@@ -1132,6 +1212,7 @@
             // 
             // pictureBox81
             // 
+            this.pictureBox81.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox81.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox81.Image")));
             this.pictureBox81.Location = new System.Drawing.Point(332, 226);
             this.pictureBox81.Margin = new System.Windows.Forms.Padding(0);
@@ -1143,6 +1224,7 @@
             // 
             // pictureBox82
             // 
+            this.pictureBox82.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox82.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox82.Image")));
             this.pictureBox82.Location = new System.Drawing.Point(188, 274);
             this.pictureBox82.Margin = new System.Windows.Forms.Padding(0);
@@ -1154,6 +1236,7 @@
             // 
             // pictureBox83
             // 
+            this.pictureBox83.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox83.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox83.Image")));
             this.pictureBox83.Location = new System.Drawing.Point(188, 226);
             this.pictureBox83.Margin = new System.Windows.Forms.Padding(0);
@@ -1165,6 +1248,7 @@
             // 
             // pictureBox84
             // 
+            this.pictureBox84.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox84.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox84.Image")));
             this.pictureBox84.Location = new System.Drawing.Point(236, 322);
             this.pictureBox84.Margin = new System.Windows.Forms.Padding(0);
@@ -1176,6 +1260,7 @@
             // 
             // pictureBox85
             // 
+            this.pictureBox85.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox85.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox85.Image")));
             this.pictureBox85.Location = new System.Drawing.Point(236, 370);
             this.pictureBox85.Margin = new System.Windows.Forms.Padding(0);
@@ -1187,6 +1272,7 @@
             // 
             // pictureBox86
             // 
+            this.pictureBox86.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox86.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox86.Image")));
             this.pictureBox86.Location = new System.Drawing.Point(188, 370);
             this.pictureBox86.Margin = new System.Windows.Forms.Padding(0);
@@ -1198,6 +1284,7 @@
             // 
             // pictureBox87
             // 
+            this.pictureBox87.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox87.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox87.Image")));
             this.pictureBox87.Location = new System.Drawing.Point(140, 370);
             this.pictureBox87.Margin = new System.Windows.Forms.Padding(0);
@@ -1209,6 +1296,7 @@
             // 
             // pictureBox88
             // 
+            this.pictureBox88.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox88.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox88.Image")));
             this.pictureBox88.Location = new System.Drawing.Point(140, 322);
             this.pictureBox88.Margin = new System.Windows.Forms.Padding(0);
@@ -1220,6 +1308,7 @@
             // 
             // pictureBox89
             // 
+            this.pictureBox89.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox89.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox89.Image")));
             this.pictureBox89.Location = new System.Drawing.Point(188, 322);
             this.pictureBox89.Margin = new System.Windows.Forms.Padding(0);
@@ -1233,6 +1322,7 @@
             // 
             this.redOrb1.BackColor = System.Drawing.Color.Transparent;
             this.redOrb1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("redOrb1.BackgroundImage")));
+            this.redOrb1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.redOrb1.Image = ((System.Drawing.Image)(resources.GetObject("redOrb1.Image")));
             this.redOrb1.Location = new System.Drawing.Point(284, 226);
             this.redOrb1.Margin = new System.Windows.Forms.Padding(0);
@@ -1246,6 +1336,7 @@
             // 
             this.redOrb2.BackColor = System.Drawing.Color.Transparent;
             this.redOrb2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("redOrb2.BackgroundImage")));
+            this.redOrb2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.redOrb2.Image = ((System.Drawing.Image)(resources.GetObject("redOrb2.Image")));
             this.redOrb2.Location = new System.Drawing.Point(332, 226);
             this.redOrb2.Margin = new System.Windows.Forms.Padding(0);
@@ -1259,6 +1350,7 @@
             // 
             this.redOrb3.BackColor = System.Drawing.Color.Transparent;
             this.redOrb3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("redOrb3.BackgroundImage")));
+            this.redOrb3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.redOrb3.Image = ((System.Drawing.Image)(resources.GetObject("redOrb3.Image")));
             this.redOrb3.Location = new System.Drawing.Point(380, 226);
             this.redOrb3.Margin = new System.Windows.Forms.Padding(0);
@@ -1272,6 +1364,7 @@
             // 
             this.redOrb4.BackColor = System.Drawing.Color.Transparent;
             this.redOrb4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("redOrb4.BackgroundImage")));
+            this.redOrb4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.redOrb4.Image = ((System.Drawing.Image)(resources.GetObject("redOrb4.Image")));
             this.redOrb4.Location = new System.Drawing.Point(380, 274);
             this.redOrb4.Margin = new System.Windows.Forms.Padding(0);
@@ -1285,6 +1378,7 @@
             // 
             this.redOrb5.BackColor = System.Drawing.Color.Transparent;
             this.redOrb5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("redOrb5.BackgroundImage")));
+            this.redOrb5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.redOrb5.Image = ((System.Drawing.Image)(resources.GetObject("redOrb5.Image")));
             this.redOrb5.Location = new System.Drawing.Point(332, 274);
             this.redOrb5.Margin = new System.Windows.Forms.Padding(0);
@@ -1298,6 +1392,7 @@
             // 
             this.redOrb6.BackColor = System.Drawing.Color.Transparent;
             this.redOrb6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("redOrb6.BackgroundImage")));
+            this.redOrb6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.redOrb6.Image = ((System.Drawing.Image)(resources.GetObject("redOrb6.Image")));
             this.redOrb6.Location = new System.Drawing.Point(284, 274);
             this.redOrb6.Margin = new System.Windows.Forms.Padding(0);
@@ -1309,6 +1404,7 @@
             // 
             // box6
             // 
+            this.box6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.box6.Image = ((System.Drawing.Image)(resources.GetObject("box6.Image")));
             this.box6.Location = new System.Drawing.Point(188, 322);
             this.box6.Margin = new System.Windows.Forms.Padding(0);
@@ -1320,6 +1416,7 @@
             // 
             // box3
             // 
+            this.box3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.box3.Image = ((System.Drawing.Image)(resources.GetObject("box3.Image")));
             this.box3.Location = new System.Drawing.Point(476, 178);
             this.box3.Margin = new System.Windows.Forms.Padding(0);
@@ -1331,6 +1428,7 @@
             // 
             // box1
             // 
+            this.box1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.box1.Image = ((System.Drawing.Image)(resources.GetObject("box1.Image")));
             this.box1.Location = new System.Drawing.Point(188, 178);
             this.box1.Margin = new System.Windows.Forms.Padding(0);
@@ -1342,6 +1440,7 @@
             // 
             // box2
             // 
+            this.box2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.box2.Image = ((System.Drawing.Image)(resources.GetObject("box2.Image")));
             this.box2.Location = new System.Drawing.Point(332, 130);
             this.box2.Margin = new System.Windows.Forms.Padding(0);
@@ -1353,6 +1452,7 @@
             // 
             // box5
             // 
+            this.box5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.box5.Image = ((System.Drawing.Image)(resources.GetObject("box5.Image")));
             this.box5.Location = new System.Drawing.Point(332, 322);
             this.box5.Margin = new System.Windows.Forms.Padding(0);
@@ -1364,6 +1464,7 @@
             // 
             // box4
             // 
+            this.box4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.box4.Image = ((System.Drawing.Image)(resources.GetObject("box4.Image")));
             this.box4.Location = new System.Drawing.Point(476, 322);
             this.box4.Margin = new System.Windows.Forms.Padding(0);
@@ -1377,6 +1478,7 @@
             // 
             this.wizard.BackColor = System.Drawing.Color.Transparent;
             this.wizard.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("wizard.BackgroundImage")));
+            this.wizard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.wizard.Image = ((System.Drawing.Image)(resources.GetObject("wizard.Image")));
             this.wizard.Location = new System.Drawing.Point(332, 370);
             this.wizard.Margin = new System.Windows.Forms.Padding(0);
@@ -1618,6 +1720,7 @@
             this.MaximizeBox = false;
             this.Name = "Level5";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Level5";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Level5_FormClosing);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Level5_KeyPress);
             ((System.ComponentModel.ISupportInitialize)(this.brick1)).EndInit();

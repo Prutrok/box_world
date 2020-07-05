@@ -13,12 +13,16 @@ namespace BoxWorld
     public partial class Level5 : Form
     {
 
+        PictureBoxLocation[] initialBoxLocations;
+        PictureBoxLocation initialWizardLocation = new PictureBoxLocation();
+
         List<PictureBox> boxes = new List<PictureBox>();
         List<PictureBox> bricks = new List<PictureBox>();
         List<PictureBox> redOrbs = new List<PictureBox>();
 
         int points = 0;
-        VictoryPopUp victoryPopUp;
+        FinishedGamePopUp finishedGamePopUp;
+
         List<PictureBox> scoredRedOrbs = new List<PictureBox>();
 
         bool didWin = false;
@@ -91,7 +95,12 @@ namespace BoxWorld
             bricks.Add(brick45);
             bricks.Add(brick46);
 
-            victoryPopUp = new VictoryPopUp(this, null);
+          //  victoryPopUp = new VictoryPopUp(this, null);
+
+            initialBoxLocations = Helper.mapToPictureBoxLocation(boxes);
+
+            initialWizardLocation.X = wizard.Location.X;
+            initialWizardLocation.Y = wizard.Location.Y;
         }
 
         public void InitState(FormState formState)
@@ -134,9 +143,41 @@ namespace BoxWorld
             {
                 Helper.wizardMovement(Moving.RIGHT, wizard, bricks, boxes, redOrbs, scoredRedOrbs);
             }
+            if (e.KeyChar == 'R' || e.KeyChar == 'r')
+            {
+                Helper.updatePictureBoxLocation(boxes, initialBoxLocations);
+                wizard.Location = new Point(initialWizardLocation.X, initialWizardLocation.Y);
 
-            points = scoredRedOrbs.Count;
-         Level5_victoryPopUp();
+                scoredRedOrbs = new List<PictureBox>();
+                points = 0;
+
+                for (int i = 0; i < boxes.Count; i++)
+                {
+                    bool willHit = Helper.willHitPictureBox(redOrbs, boxes[i].Location);
+
+                    if (willHit)
+                    {
+                        PictureBox redOrb = Helper.getPictureBoxByLocation(redOrbs, boxes[i].Location);
+
+                        if (redOrb != null)
+                        {
+                            scoredRedOrbs.Add(redOrb);
+                            boxes[i].Image = Helper.getBitmapAssetByName("BoxWorld.Assets.crate_green.jpg");
+                        }
+                    }
+                    else
+                    {
+                        boxes[i].Image = Helper.getBitmapAssetByName("BoxWorld.Assets.wooden_crate2.png");
+                    }
+                }
+
+                points = scoredRedOrbs.Count;
+            }
+            else
+            {
+                points = scoredRedOrbs.Count;
+                Level5_finishedGamePopUp();
+            }
 
         }
 
@@ -154,13 +195,14 @@ namespace BoxWorld
                 Helper.popUp.ShowDialog();
             }
         }
-
-        private void Level5_victoryPopUp()
+        private void Level5_finishedGamePopUp()
         {
             if (points == 6)
             {
                 didWin = true;
-                victoryPopUp.ShowDialog();
+                finishedGamePopUp = new FinishedGamePopUp(this, new Form1());
+                finishedGamePopUp.ShowDialog();
+
             }
         }
     }

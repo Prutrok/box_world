@@ -10,13 +10,13 @@ using System.Windows.Forms;
 
 namespace BoxWorld
 {
-    public partial class VictoryPopUp : Form
+    public partial class FinishedGamePopUp : Form
     {
 
         Form calledBy;
         Form nextLevel;
 
-        public VictoryPopUp(Form calledBy, Form nextLevel)
+        public FinishedGamePopUp(Form calledBy, Form nextLevel)
         {
             InitializeComponent();
 
@@ -26,11 +26,11 @@ namespace BoxWorld
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
-                calledBy.Close();
-                nextLevel.Show();
-                this.Close();
-            
+
+            calledBy.Close();
+            nextLevel.Show();
+            this.Close();
+
         }
     }
 }

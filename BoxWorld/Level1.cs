@@ -8,6 +8,9 @@ namespace BoxWorld
     [Serializable]
     public partial class Level1 : Form
     {
+
+        PictureBoxLocation[] initialBoxLocations;
+        PictureBoxLocation initialWizardLocation = new PictureBoxLocation();
         
         List<PictureBox> boxes = new List<PictureBox>();
         List<PictureBox> bricks = new List<PictureBox>();
@@ -64,6 +67,11 @@ namespace BoxWorld
             bricks.Add(brick26);
             bricks.Add(brick27);
             bricks.Add(brick28);
+
+            initialBoxLocations = Helper.mapToPictureBoxLocation(boxes);
+
+            initialWizardLocation.X = wizard.Location.X;
+            initialWizardLocation.Y = wizard.Location.Y;
         }
 
         public void InitState(FormState formState)
@@ -107,8 +115,37 @@ namespace BoxWorld
                 Helper.wizardMovement(Moving.RIGHT, wizard, bricks, boxes, redOrbs, scoredRedOrbs);
            }
 
-            points = scoredRedOrbs.Count;
-            Level1_victoryPopUp();
+           if (e.KeyChar == 'R' || e.KeyChar == 'r')
+           {
+                Helper.updatePictureBoxLocation(boxes, initialBoxLocations);
+                wizard.Location = new Point(initialWizardLocation.X, initialWizardLocation.Y);
+
+                scoredRedOrbs = new List<PictureBox>();
+                points = 0;
+
+                for (int i = 0; i < boxes.Count; i++)
+                {
+                    bool willHit = Helper.willHitPictureBox(redOrbs, boxes[i].Location);
+
+                    if (willHit)
+                    {
+                        PictureBox redOrb = Helper.getPictureBoxByLocation(redOrbs, boxes[i].Location);
+
+                        if (redOrb != null)
+                        {
+                            scoredRedOrbs.Add(redOrb);
+                            boxes[i].Image = Helper.getBitmapAssetByName("BoxWorld.Assets.crate_green.jpg");
+                        }
+                    } else {
+                        boxes[i].Image = Helper.getBitmapAssetByName("BoxWorld.Assets.wooden_crate2.png");
+                    }
+                }
+
+                points = scoredRedOrbs.Count;
+           } else {
+                points = scoredRedOrbs.Count;
+                Level1_victoryPopUp();
+           }
         }
 
         private void Level1_FormClosing(object sender, FormClosingEventArgs e)

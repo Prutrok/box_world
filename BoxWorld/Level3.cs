@@ -14,6 +14,9 @@ namespace BoxWorld
     public partial class Level3 : Form
     {
 
+        PictureBoxLocation[] initialBoxLocations;
+        PictureBoxLocation initialWizardLocation = new PictureBoxLocation();
+
         List<PictureBox> boxes = new List<PictureBox>();
         List<PictureBox> bricks = new List<PictureBox>();
         List<PictureBox> redOrbs = new List<PictureBox>();
@@ -77,8 +80,11 @@ namespace BoxWorld
             bricks.Add(brick34);
             bricks.Add(brick35);
 
+            initialBoxLocations = Helper.mapToPictureBoxLocation(boxes);
 
-            
+            initialWizardLocation.X = wizard.Location.X;
+            initialWizardLocation.Y = wizard.Location.Y;
+
         }
 
         public void InitState(FormState formState)
@@ -121,9 +127,41 @@ namespace BoxWorld
             {
                 Helper.wizardMovement(Moving.RIGHT, wizard, bricks, boxes, redOrbs, scoredRedOrbs);
             }
+            if (e.KeyChar == 'R' || e.KeyChar == 'r')
+            {
+                Helper.updatePictureBoxLocation(boxes, initialBoxLocations);
+                wizard.Location = new Point(initialWizardLocation.X, initialWizardLocation.Y);
 
-            points = scoredRedOrbs.Count;
-            Level3_victoryPopUp();
+                scoredRedOrbs = new List<PictureBox>();
+                points = 0;
+
+                for (int i = 0; i < boxes.Count; i++)
+                {
+                    bool willHit = Helper.willHitPictureBox(redOrbs, boxes[i].Location);
+
+                    if (willHit)
+                    {
+                        PictureBox redOrb = Helper.getPictureBoxByLocation(redOrbs, boxes[i].Location);
+
+                        if (redOrb != null)
+                        {
+                            scoredRedOrbs.Add(redOrb);
+                            boxes[i].Image = Helper.getBitmapAssetByName("BoxWorld.Assets.crate_green.jpg");
+                        }
+                    }
+                    else
+                    {
+                        boxes[i].Image = Helper.getBitmapAssetByName("BoxWorld.Assets.wooden_crate2.png");
+                    }
+                }
+
+                points = scoredRedOrbs.Count;
+            }
+            else
+            {
+                points = scoredRedOrbs.Count;
+                Level3_victoryPopUp();
+            }
 
         }
 

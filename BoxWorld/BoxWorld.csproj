@@ -74,6 +74,12 @@
     <Compile Include="ExitPopUp.Designer.cs">
       <DependentUpon>ExitPopUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="FinishedGamePopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FinishedGamePopUp.Designer.cs">
+      <DependentUpon>FinishedGamePopUp.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,6 +130,9 @@
     </Compile>
     <EmbeddedResource Include="ExitPopUp.resx">
       <DependentUpon>ExitPopUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FinishedGamePopUp.resx">
+      <DependentUpon>FinishedGamePopUp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
