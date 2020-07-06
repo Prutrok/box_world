@@ -72,19 +72,19 @@ Windows Forms проект по предметот Визуелно Програ
     {
        public static ExitPopUp popUp = new ExitPopUp();
 
-       public static PictureBoxLocation findPictureBoxLocationByName(string name, PictureBoxLocation[] pictureBoxLocations)
+       public static PictureBoxLocation findPictureBoxLocationByName(string name, PictureBoxLocation[] pictureBoxLocations);
         
-       public static void updatePictureBoxLocation(List<PictureBox> pictureBoxes, PictureBoxLocation[] pictureBoxLocations)
+       public static void updatePictureBoxLocation(List<PictureBox> pictureBoxes, PictureBoxLocation[] pictureBoxLocations);
        
-       public static List<PictureBox> extractPictureBoxesFromNames(string[] names, List<PictureBox> pictureBoxes)
+       public static List<PictureBox> extractPictureBoxesFromNames(string[] names, List<PictureBox> pictureBoxes);
        
-       public static bool willHitPictureBox(List<PictureBox> pictureBoxes, Point point)
+       public static bool willHitPictureBox(List<PictureBox> pictureBoxes, Point point);
        
-       public static PictureBox getPictureBoxByLocation(List<PictureBox> pictureBoxes, Point point
+       public static PictureBox getPictureBoxByLocation(List<PictureBox> pictureBoxes, Point point;
        
-       public static void wizardMovement(Moving moving, PictureBox wizard, List<PictureBox> bricks, List<PictureBox> boxes, List<PictureBox> redOrbs, List<PictureBox> scoredRedOrbs)
+       public static void wizardMovement(Moving moving, PictureBox wizard, List<PictureBox> bricks, List<PictureBox> boxes, List<PictureBox> redOrbs, List<PictureBox> scoredRedOrbs);
 
-       private static void moveWizard(int moveX, int moveY, PictureBox wizard, List<PictureBox> bricks, List<PictureBox> boxes, List<PictureBox> redOrbs, List<PictureBox> scoredRedOrbs)
+       private static void moveWizard(int moveX, int moveY, PictureBox wizard, List<PictureBox> bricks, List<PictureBox> boxes, List<PictureBox> redOrbs, List<PictureBox> scoredRedOrbs);
 
 
     }
