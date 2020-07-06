@@ -58,7 +58,7 @@ Windows Forms проект по предметот Визуелно Програ
 
 Главните податоци и функции за играта се чуваат во класите `class Helper` и `public class PictureBoxLocation`
 
-```
+```c#
 [Serializable]
     public class PictureBoxLocation
     {
@@ -67,7 +67,7 @@ Windows Forms проект по предметот Визуелно Програ
         public int Y = 0;
     }
  ```
- ```
+ ```c#
  class Helper
     {
        public static ExitPopUp popUp = new ExitPopUp();
