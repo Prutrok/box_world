@@ -32,13 +32,16 @@ namespace BoxWorld
 
             if (FormState != null)
             {
-                Stream stream = new FileStream("Save.bin",
-                                               FileMode.Create,
-                                               FileAccess.Write,
-                                               FileShare.None);
+                if (FormState.level != "")
+                {
+                    Stream stream = new FileStream("Save.bin",
+                                                   FileMode.Create,
+                                                   FileAccess.Write,
+                                                   FileShare.None);
 
-                formatter.Serialize(stream, FormState);
-                stream.Close();
+                    formatter.Serialize(stream, FormState);
+                    stream.Close();
+                }
             }
 
             Application.Exit();

@@ -88,6 +88,11 @@ namespace BoxWorld
                         level5.InitState(formState);
                         level5.Show();
                         break;
+                    default:
+                        Level1 levelOne = new Level1();
+
+                        levelOne.Show();
+                        break;
                    
                 }
                 
